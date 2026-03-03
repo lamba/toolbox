@@ -1,0 +1,55 @@
+# --- virtualenvs / installed deps ---
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+.python-version
+
+# If you ever accidentally create venvs in weird places
+**/.venv/
+**/venv/
+**/env/
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.cache/
+
+# --- packaging / builds ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.wheels/
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- dotenv / secrets ---
+.env
+.env.*
+!.envrc   # keep .envrc tracked (direnv config)
+
+# --- macOS junk ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- logs / temp ---
+*.log
+tmp/
+temp/
