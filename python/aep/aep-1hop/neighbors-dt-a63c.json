@@ -1,0 +1,26 @@
+{
+  "query": {
+    "input_id": "a63c",
+    "resolved_id": "https://ns.adobe.com/accenture_partner/datatypes/62d76a6fa0ae9572e27b46f87442a63c",
+    "node": {
+      "kind": "datatype",
+      "title": "ee_call_center_core_v1",
+      "$id": "https://ns.adobe.com/accenture_partner/datatypes/62d76a6fa0ae9572e27b46f87442a63c",
+      "meta:altId": "_accenture_partner.datatypes.62d76a6fa0ae9572e27b46f87442a63c"
+    }
+  },
+  "neighbors_1hop": [
+    {
+      "id": "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+      "node": {
+        "kind": "fieldgroup",
+        "title": "ExperienceEvent Core v2.1",
+        "$id": "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+        "meta:altId": "_accenture_partner.mixins.98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612"
+      },
+      "reason": "fieldgroup_refs_datatype",
+      "path": "$.definitions.customFields.properties._accenture_partner.properties.interactionDetails.properties.core.properties.callCenterAgent.$ref"
+    }
+  ],
+  "neighbor_count": 1
+}

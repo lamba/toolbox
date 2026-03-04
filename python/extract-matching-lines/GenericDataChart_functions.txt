@@ -1,0 +1,24 @@
+const normalizeColumnName = (column: string): string => {
+const generateChartKey = (): string => {
+  const cleanExcelErrors = (value: any): any => {
+  const isColumnCategorical = (data: any[], column: string): boolean => {
+  const denormalizeColumnName = (column: string): string => {
+  const handleDrag = (e: DragEvent<HTMLDivElement>) => {
+  const handleDrop = (e: DragEvent<HTMLDivElement>) => {
+  const handleFileInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFile = (file: File) => {
+  const processData = (rawData: any[]) => {
+  const shortenText = (text: string, maxLength = 20): string => {
+  const prepareChartData = () => {
+  const prepareGroupedData = (filteredData: Record<string, any>[]) => {
+  const getColumnColor = (column: string, index: number) => {
+  const updateConfig = (changes: Partial<ChartConfig>) => {
+  const updateFilterConfig = (column: string, updates: Partial<FilterConfig>) => {
+  const saveCurrentConfig = () => {
+  const loadConfig = (name: string) => {
+  const exportToCSV = (data: any[]) => {
+  const CustomLegend = () => {
+  const getFilterSummary = () => {
+  const renderFilters = () => (
+  const createChartBrush = (chartData: any[]) => {
+  const renderChart = () => {

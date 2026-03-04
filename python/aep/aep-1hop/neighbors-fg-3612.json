@@ -1,0 +1,180 @@
+{
+  "query": {
+    "input_id": "3612",
+    "resolved_id": "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+    "node": {
+      "kind": "fieldgroup",
+      "title": "ExperienceEvent Core v2.1",
+      "$id": "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+      "meta:altId": "_accenture_partner.mixins.98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612"
+    }
+  },
+  "neighbors_1hop": [
+    {
+      "id": "https://ns.adobe.com/accenture_partner/schemas/abc9fcaca10e897c71a41b6c37a70cca815b64dd4ec53c3a",
+      "node": {
+        "kind": "schema",
+        "title": "Demo System - Event Schema for Mobile App (Global v1.1)",
+        "$id": "https://ns.adobe.com/accenture_partner/schemas/abc9fcaca10e897c71a41b6c37a70cca815b64dd4ec53c3a",
+        "meta:altId": "_accenture_partner.schemas.abc9fcaca10e897c71a41b6c37a70cca815b64dd4ec53c3a"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[3].$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/schemas/de41e11b65250f24f851a4b35e229f85750b71cba8cdb7fb",
+      "node": {
+        "kind": "schema",
+        "title": "Demo System - Event Schema for CRM (Global v1.1)",
+        "$id": "https://ns.adobe.com/accenture_partner/schemas/de41e11b65250f24f851a4b35e229f85750b71cba8cdb7fb",
+        "meta:altId": "_accenture_partner.schemas.de41e11b65250f24f851a4b35e229f85750b71cba8cdb7fb"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[3].$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/schemas/d9b88a044ad96154637965a97ed63c7b20bdf2ab3b4f642e",
+      "node": {
+        "kind": "schema",
+        "title": "Demo System - Event Schema for Website (Global v1.1)",
+        "$id": "https://ns.adobe.com/accenture_partner/schemas/d9b88a044ad96154637965a97ed63c7b20bdf2ab3b4f642e",
+        "meta:altId": "_accenture_partner.schemas.d9b88a044ad96154637965a97ed63c7b20bdf2ab3b4f642e"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[5].$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/schemas/fa8b21f33509e8ab9d5139b53652b61ec2b18dcea1388411",
+      "node": {
+        "kind": "schema",
+        "title": "Demo System - Event Schema for Stackchat Chatbot (Global v1.1)",
+        "$id": "https://ns.adobe.com/accenture_partner/schemas/fa8b21f33509e8ab9d5139b53652b61ec2b18dcea1388411",
+        "meta:altId": "_accenture_partner.schemas.fa8b21f33509e8ab9d5139b53652b61ec2b18dcea1388411"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[4].$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/schemas/fc82efe33cbe36a896b749abf805386b130deb8064526143",
+      "node": {
+        "kind": "schema",
+        "title": "Cja_boya",
+        "$id": "https://ns.adobe.com/accenture_partner/schemas/fc82efe33cbe36a896b749abf805386b130deb8064526143",
+        "meta:altId": "_accenture_partner.schemas.fc82efe33cbe36a896b749abf805386b130deb8064526143"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[3].$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/schemas/645feab36de7d632a2e2342d305034d8b2258981d6c459c2",
+      "node": {
+        "kind": "schema",
+        "title": "mei test websdk",
+        "$id": "https://ns.adobe.com/accenture_partner/schemas/645feab36de7d632a2e2342d305034d8b2258981d6c459c2",
+        "meta:altId": "_accenture_partner.schemas.645feab36de7d632a2e2342d305034d8b2258981d6c459c2"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[2].$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/schemas/dce58aa964d98317c66cfc735a4ec48b646598cd247a8b9b",
+      "node": {
+        "kind": "schema",
+        "title": "Demo System - Event Schema for POS (Global v1.1)",
+        "$id": "https://ns.adobe.com/accenture_partner/schemas/dce58aa964d98317c66cfc735a4ec48b646598cd247a8b9b",
+        "meta:altId": "_accenture_partner.schemas.dce58aa964d98317c66cfc735a4ec48b646598cd247a8b9b"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[5].$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/schemas/b0190276c6e1e1e99cf56c99f4c07a6e517bf02091dcec80",
+      "node": {
+        "kind": "schema",
+        "title": "Demo System - Event Schema for Customer Experience App (Global v1.1)",
+        "$id": "https://ns.adobe.com/accenture_partner/schemas/b0190276c6e1e1e99cf56c99f4c07a6e517bf02091dcec80",
+        "meta:altId": "_accenture_partner.schemas.b0190276c6e1e1e99cf56c99f4c07a6e517bf02091dcec80"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[3].$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/datatypes/62d76a6fa0ae9572e27b46f87442a63c",
+      "node": {
+        "kind": "datatype",
+        "title": "ee_call_center_core_v1",
+        "$id": "https://ns.adobe.com/accenture_partner/datatypes/62d76a6fa0ae9572e27b46f87442a63c",
+        "meta:altId": "_accenture_partner.datatypes.62d76a6fa0ae9572e27b46f87442a63c"
+      },
+      "reason": "fieldgroup_refs_datatype",
+      "path": "$.definitions.customFields.properties._accenture_partner.properties.interactionDetails.properties.core.properties.callCenterAgent.$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/datatypes/c13b3f72ef7265867115526d85fa7d40ed531ac8673e7251",
+      "node": {
+        "kind": "datatype",
+        "title": "ee_bot_core_v2",
+        "$id": "https://ns.adobe.com/accenture_partner/datatypes/c13b3f72ef7265867115526d85fa7d40ed531ac8673e7251",
+        "meta:altId": "_accenture_partner.datatypes.c13b3f72ef7265867115526d85fa7d40ed531ac8673e7251"
+      },
+      "reason": "fieldgroup_refs_datatype",
+      "path": "$.definitions.customFields.properties._accenture_partner.properties.interactionDetails.properties.core.properties.bot.$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/datatypes/d402cbe5b484f7c0154f049c806b7b37715f8e1d8db2b29b",
+      "node": {
+        "kind": "datatype",
+        "title": "ee_form_core_v2",
+        "$id": "https://ns.adobe.com/accenture_partner/datatypes/d402cbe5b484f7c0154f049c806b7b37715f8e1d8db2b29b",
+        "meta:altId": "_accenture_partner.datatypes.d402cbe5b484f7c0154f049c806b7b37715f8e1d8db2b29b"
+      },
+      "reason": "fieldgroup_refs_datatype",
+      "path": "$.definitions.customFields.properties._accenture_partner.properties.interactionDetails.properties.core.properties.form.$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/datatypes/c13b3f72ef7265867115526d85fa7d40ed531ac8673e7252",
+      "node": {
+        "kind": "datatype",
+        "title": "ee_video_core_v2",
+        "$id": "https://ns.adobe.com/accenture_partner/datatypes/c13b3f72ef7265867115526d85fa7d40ed531ac8673e7252",
+        "meta:altId": "_accenture_partner.datatypes.c13b3f72ef7265867115526d85fa7d40ed531ac8673e7252"
+      },
+      "reason": "fieldgroup_refs_datatype",
+      "path": "$.definitions.customFields.properties._accenture_partner.properties.interactionDetails.properties.core.properties.video.$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/datatypes/34932a5288f47f3e4092bf3a7255ad4dfd6cd75753325268",
+      "node": {
+        "kind": "datatype",
+        "title": "demoEnvironment",
+        "$id": "https://ns.adobe.com/accenture_partner/datatypes/34932a5288f47f3e4092bf3a7255ad4dfd6cd75753325268",
+        "meta:altId": "_accenture_partner.datatypes.34932a5288f47f3e4092bf3a7255ad4dfd6cd75753325268"
+      },
+      "reason": "fieldgroup_refs_datatype",
+      "path": "$.definitions.customFields.properties._accenture_partner.properties.demoEnvironment.$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/datatypes/f73d4083368035765071e5df86bfb92a994818ed564d6ad6",
+      "node": {
+        "kind": "datatype",
+        "title": "core",
+        "$id": "https://ns.adobe.com/accenture_partner/datatypes/f73d4083368035765071e5df86bfb92a994818ed564d6ad6",
+        "meta:altId": "_accenture_partner.datatypes.f73d4083368035765071e5df86bfb92a994818ed564d6ad6"
+      },
+      "reason": "fieldgroup_refs_datatype",
+      "path": "$.definitions.customFields.properties._accenture_partner.properties.identification.properties.core.$ref"
+    },
+    {
+      "id": "https://ns.adobe.com/accenture_partner/datatypes/000d4c195f109aee69c3bc483869e908",
+      "node": {
+        "kind": "datatype",
+        "title": "ee_product_details_core_v1",
+        "$id": "https://ns.adobe.com/accenture_partner/datatypes/000d4c195f109aee69c3bc483869e908",
+        "meta:altId": "_accenture_partner.datatypes.000d4c195f109aee69c3bc483869e908"
+      },
+      "reason": "fieldgroup_refs_datatype",
+      "path": "$.definitions.customFields.properties.productListItems.items.properties._accenture_partner.properties.core.$ref"
+    }
+  ],
+  "neighbor_count": 15
+}

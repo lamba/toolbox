@@ -1,0 +1,3284 @@
+{
+    "results": [
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/499fddee52a8773ed9fad8a4cfdeafb8cef0de4d87d30070",
+            "meta:altId": "_accenture_partner.datatypes.499fddee52a8773ed9fad8a4cfdeafb8cef0de4d87d30070",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "profile_characteristics_retail_v2",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "cobrandedCreditCardHolder": {
+                            "title": "cobrandedCreditCardHolder",
+                            "description": "",
+                            "type": "boolean",
+                            "meta:xdmType": "boolean",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.cobrandedCreditCardHolder",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        },
+                        "favoriteStore": {
+                            "title": "favoriteStore",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.favoriteStore",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        },
+                        "favoriteColor": {
+                            "title": "favoriteColor",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.favoriteColor",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        },
+                        "favoriteDesigner": {
+                            "title": "favoriteDesigner",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.favoriteDesigner",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        },
+                        "favoriteFashionBrand": {
+                            "title": "favoriteFashionBrand",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.favoriteFashionBrand",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        },
+                        "linkedStore": {
+                            "title": "linkedStore",
+                            "description": "",
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "meta:xdmType": "string"
+                            },
+                            "meta:xdmType": "array",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.linkedStore[]{}",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        },
+                        "pantsSize": {
+                            "title": "pantsSize",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.pantsSize",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        },
+                        "shirtSize": {
+                            "title": "shirtSize",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.shirtSize",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        },
+                        "shoeSize": {
+                            "title": "shoeSize",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/1d7388661a2f1689fba78b452491bb31ebac23349fff916d",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.retail{}.shoeSize",
+                                "editable": true,
+                                "generateDate": 1605103001691
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1771557931005,
+                "repo:lastModifiedDate": 1771557931005,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "1339798397efd43f01099f62f516b9b61efe3263271a21ed2aaa229d564296fe",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/a90725366c4866296fa61ab69ea71adbd27c940d3f2c1962",
+            "meta:altId": "_accenture_partner.datatypes.a90725366c4866296fa61ab69ea71adbd27c940d3f2c1962",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "System Identifier AM 021826",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "loyaltyId_AM": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/systemIdentifier_AM_021826/loyaltyId_AM",
+                                "path": "{}._accenture_partner{}.systemIdentifier_AM_021826{}.loyaltyId_AM"
+                            },
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/fd2ea7db940cbbc2fbce38eb50b8d8f5aa7e6eed99d7c5cd"
+                            ],
+                            "meta:xdmType": "string",
+                            "title": "Loyalty ID AM",
+                            "type": "string",
+                            "required": []
+                        },
+                        "crmId_AM": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/systemIdentifier_AM_021826/crmId_AM",
+                                "path": "{}._accenture_partner{}.systemIdentifier_AM_021826{}.crmId_AM"
+                            },
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/fd2ea7db940cbbc2fbce38eb50b8d8f5aa7e6eed99d7c5cd"
+                            ],
+                            "meta:xdmType": "string",
+                            "title": "CRM ID AM",
+                            "type": "string",
+                            "required": []
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1771536654631,
+                "repo:lastModifiedDate": 1771536654631,
+                "xdm:createdClientId": "acp_xql_gateway",
+                "xdm:lastModifiedClientId": "acp_xql_gateway",
+                "xdm:createdUserId": "6FA121EC694AA7FE0A495FA7@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "6FA121EC694AA7FE0A495FA7@a1c41e9a64965ffd495c6c.e",
+                "eTag": "3928ca435cf885c85817bd62c3a80df6095c048511cc12f4050d6738cafb3a53",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/17b1f74dbe314f85a8bd04737508d43c6f7e16c7a2db3657",
+            "meta:altId": "_accenture_partner.datatypes.17b1f74dbe314f85a8bd04737508d43c6f7e16c7a2db3657",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "System Identifier AM",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "loyaltyIDAM": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/systemIdentifierAM/loyaltyIDAM",
+                                "path": "{}._accenture_partner{}.systemIdentifierAM{}.loyaltyIDAM"
+                            },
+                            "meta:xdmType": "string",
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/a74bd231c8b86775f602a74d9fc6c836fe38fe134e5a2e15",
+                                "https://ns.adobe.com/accenture_partner/mixins/a74bd231c8b86775f602a74d9fc6c836fe38fe134e5a2e15"
+                            ],
+                            "required": [],
+                            "type": "string",
+                            "title": "Loyalty ID AM"
+                        },
+                        "crmIDAM": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/systemIdentifierAM/crmIDAM",
+                                "path": "{}._accenture_partner{}.systemIdentifierAM{}.crmIDAM"
+                            },
+                            "meta:xdmType": "string",
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/a74bd231c8b86775f602a74d9fc6c836fe38fe134e5a2e15",
+                                "https://ns.adobe.com/accenture_partner/mixins/a74bd231c8b86775f602a74d9fc6c836fe38fe134e5a2e15"
+                            ],
+                            "required": [],
+                            "type": "string",
+                            "title": "CRM ID AM"
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1771437050664,
+                "repo:lastModifiedDate": 1771437050664,
+                "xdm:createdClientId": "acp_xql_gateway",
+                "xdm:lastModifiedClientId": "acp_xql_gateway",
+                "xdm:createdUserId": "6FA121EC694AA7FE0A495FA7@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "6FA121EC694AA7FE0A495FA7@a1c41e9a64965ffd495c6c.e",
+                "eTag": "56fa987faf162a110b2e4ebdcd5b3baa01685d417c88e8e5684bfee2330ade88",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/7cf8e25b8bed7f6b4c769ca5e1349108edce3694fe93471d",
+            "meta:altId": "_accenture_partner.datatypes.7cf8e25b8bed7f6b4c769ca5e1349108edce3694fe93471d",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "System Identifier 26",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "loyaltyId": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/systemIdentifier26/loyaltyId",
+                                "path": "{}._accenture_partner{}.systemIdentifier26{}.loyaltyId"
+                            },
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/f6e2b7205b89379733c59334248af1c1dad106c4fb33376"
+                            ],
+                            "meta:xdmType": "string",
+                            "minLength": 1,
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Loyalty Id"
+                        },
+                        "crmId": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/systemIdentifier26/crmId",
+                                "path": "{}._accenture_partner{}.systemIdentifier26{}.crmId"
+                            },
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/f6e2b7205b89379733c59334248af1c1dad106c4fb33376"
+                            ],
+                            "meta:xdmType": "string",
+                            "minLength": 1,
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "CRM Id"
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1770990542837,
+                "repo:lastModifiedDate": 1770990542837,
+                "xdm:createdClientId": "acp_xql_gateway",
+                "xdm:lastModifiedClientId": "acp_xql_gateway",
+                "xdm:createdUserId": "B1971ED267A22E660A495FB7@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "B1971ED267A22E660A495FB7@a1c41e9a64965ffd495c6c.e",
+                "eTag": "5a3aa73b8e1eedc9ad9fb5d760290015ec81b3e37b6ceeb09833e2055d6e90a0",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/1584b80ba6e825a6d2618d82dad8b96f40ff67b06f5d054d",
+            "meta:altId": "_accenture_partner.datatypes.1584b80ba6e825a6d2618d82dad8b96f40ff67b06f5d054d",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "System Identifier",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "loyaltyId": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/systemIdentifier/loyaltyId",
+                                "path": "{}._accenture_partner{}.systemIdentifier{}.loyaltyId"
+                            },
+                            "meta:xdmType": "string",
+                            "meta:sourceSchema": [
+                                "schema://698f2a6e29f5d6000086345f",
+                                "schema://698f2a6e29f5d6000086345f"
+                            ],
+                            "minLength": 1,
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Loyalty Id"
+                        },
+                        "crmId": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/systemIdentifier/crmId",
+                                "path": "{}._accenture_partner{}.systemIdentifier{}.crmId"
+                            },
+                            "meta:xdmType": "string",
+                            "meta:sourceSchema": [
+                                "schema://698f2a6e29f5d6000086345f",
+                                "schema://698f2a6e29f5d6000086345f"
+                            ],
+                            "minLength": 1,
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "CRM Id"
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1770990451289,
+                "repo:lastModifiedDate": 1770990451289,
+                "xdm:createdClientId": "acp_xql_gateway",
+                "xdm:lastModifiedClientId": "acp_xql_gateway",
+                "xdm:createdUserId": "B1971ED267A22E660A495FB7@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "B1971ED267A22E660A495FB7@a1c41e9a64965ffd495c6c.e",
+                "eTag": "8207c6d3019677f0524eb9c0757e6e0df92ef07302484edc44c6a1472e8a2bc2",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/c66a8c5bc6e5d8745bef2831777d49a9da2b29ef45f95a94",
+            "meta:altId": "_accenture_partner.datatypes.c66a8c5bc6e5d8745bef2831777d49a9da2b29ef45f95a94",
+            "meta:resourceType": "datatypes",
+            "version": "1.1",
+            "title": "LearnDataType",
+            "type": "object",
+            "description": "LearnDataType",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "LearnDataType": {
+                            "title": "LearnDataType",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "lastname": {
+                            "title": "lastname",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "firstname": {
+                            "title": "firstname",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "addressdetails": {
+                            "title": "addressdetails",
+                            "description": "",
+                            "type": "object",
+                            "mapFieldType": "",
+                            "isFieldRequired": false,
+                            "note": "",
+                            "required": [],
+                            "properties": {},
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1770814833706,
+                "repo:lastModifiedDate": 1770814978309,
+                "xdm:createdClientId": "acp_ui_platform",
+                "xdm:lastModifiedClientId": "acp_ui_platform",
+                "xdm:createdUserId": "53D11DD56502FB310A495FF6@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "53D11DD56502FB310A495FF6@a1c41e9a64965ffd495c6c.e",
+                "eTag": "ac5bb20b97bab1566359605fb7d61491f471f789805df294aceb991e12ba3e04",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/1851b67c43031f3006ed135c6aef9950f87f508475bf1b50",
+            "meta:altId": "_accenture_partner.datatypes.1851b67c43031f3006ed135c6aef9950f87f508475bf1b50",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "identifiers",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "UUID": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/Identifiers/UUID",
+                                "path": "{}._accenture_partner{}.Identifiers{}.UUID"
+                            },
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/6b0b1a42df2b512f78e2a8a8a7e97e5350ec5cdaf6289eb2"
+                            ],
+                            "meta:xdmType": "string",
+                            "title": "UUID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "minLength": 0
+                        },
+                        "EAN": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/Identifiers/EAN",
+                                "path": "{}._accenture_partner{}.Identifiers{}.EAN"
+                            },
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/6b0b1a42df2b512f78e2a8a8a7e97e5350ec5cdaf6289eb2"
+                            ],
+                            "meta:xdmType": "string",
+                            "title": "EAN",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "minLength": 0
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1770074424517,
+                "repo:lastModifiedDate": 1770074424517,
+                "xdm:createdClientId": "acp_xql_gateway",
+                "xdm:lastModifiedClientId": "acp_xql_gateway",
+                "xdm:createdUserId": "9F7F1DC3649660080A495E5F@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "9F7F1DC3649660080A495E5F@a1c41e9a64965ffd495c6c.e",
+                "eTag": "84d95d77276137792d5f07fb976b64e0ceb761b0bd9b02c1bd2a71994d6a8f45",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/6225d397de89ead4e324367b190ab438",
+            "meta:altId": "_accenture_partner.datatypes.6225d397de89ead4e324367b190ab438",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_product_specs_retail_v1",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "allergens": {
+                            "description": "",
+                            "items": {
+                                "meta:xdmType": "string",
+                                "type": "string"
+                            },
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_product_details_retail_v1{}.allergens[]{}",
+                                "ref": [
+                                    "schema://5e3c8f98f6ca600000403e81",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "array",
+                            "title": "Allergens",
+                            "type": "array"
+                        },
+                        "color": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_product_details_retail_v1{}.color",
+                                "ref": [
+                                    "schema://5e3c8f98f6ca600000403e81",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "string",
+                            "title": "Color",
+                            "type": "string"
+                        },
+                        "fabric": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_product_details_retail_v1{}.fabric",
+                                "ref": [
+                                    "schema://5e3c8f98f6ca600000403e81",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "string",
+                            "title": "Fabric",
+                            "type": "string"
+                        },
+                        "ingredients": {
+                            "description": "",
+                            "items": {
+                                "meta:xdmType": "string",
+                                "type": "string"
+                            },
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_product_details_retail_v1{}.ingredients[]{}",
+                                "ref": [
+                                    "schema://5e3c8f98f6ca600000403e81",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "array",
+                            "title": "Ingredients",
+                            "type": "array"
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "meta:xdmType": "object",
+                    "type": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769591020024,
+                "repo:lastModifiedDate": 1769591020024,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "f09652f811200e1dbb492e560f5eb8a4c010b30be24b6e5e111248d2e4442d4e",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/0630ec4c7798f502827c06d949a6e07c",
+            "meta:altId": "_accenture_partner.datatypes.0630ec4c7798f502827c06d949a6e07c",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_product_details_retail_v1.0",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "color": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_product_utilization_retail_v1{}.color",
+                                "ref": [
+                                    "schema://5e45709fb6f14a0000eb060e",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "string",
+                            "title": "Color",
+                            "type": "string"
+                        },
+                        "size": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_product_utilization_retail_v1{}.size",
+                                "ref": [
+                                    "schema://5e45709fb6f14a0000eb060e",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "string",
+                            "title": "Size",
+                            "type": "string"
+                        },
+                        "targetGender": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_product_utilization_retail_v1{}.targetGender",
+                                "ref": [
+                                    "schema://5e45709fb6f14a0000eb060e",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "string",
+                            "title": "Target Gender",
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "meta:xdmType": "object",
+                    "type": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769591019336,
+                "repo:lastModifiedDate": 1769591019336,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "2348a06f4ebc928f7593c483f1162b66f8597a9a005baa83a24d3e2c30b552f2",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/3733bff0459e4e70aea877cccb811f8c",
+            "meta:altId": "_accenture_partner.datatypes.3733bff0459e4e70aea877cccb811f8c",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_order_utilization_retail_v1",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "orderDeviceID": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_order_utilization_retail_v1{}.orderDeviceID",
+                                "ref": [
+                                    "schema://5e45938a2a3f170000f6de9b",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "string",
+                            "title": "orderDeviceID",
+                            "type": "string"
+                        },
+                        "orderItemNumber": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_order_utilization_retail_v1{}.orderItemNumber",
+                                "ref": [
+                                    "schema://5e45938a2a3f170000f6de9b",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "int",
+                            "title": "orderItemNumber",
+                            "type": "integer",
+                            "minimum": -2147483648,
+                            "maximum": 2147483647
+                        },
+                        "orderType": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_order_utilization_retail_v1{}.orderType",
+                                "ref": [
+                                    "schema://5e45938a2a3f170000f6de9b",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "string",
+                            "title": "orderType",
+                            "type": "string"
+                        },
+                        "sku": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_order_utilization_retail_v1{}.sku",
+                                "ref": [
+                                    "schema://5e45938a2a3f170000f6de9b",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "string",
+                            "title": "sku",
+                            "type": "string"
+                        },
+                        "skuAmount": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_order_utilization_retail_v1{}.skuAmount",
+                                "ref": [
+                                    "schema://5e45938a2a3f170000f6de9b",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "number",
+                            "title": "sku Amount",
+                            "type": "number"
+                        },
+                        "skuOriginalPrice": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_order_utilization_retail_v1{}.skuOriginalPrice",
+                                "ref": [
+                                    "schema://5e45938a2a3f170000f6de9b",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "number",
+                            "title": "skuOriginalPrice",
+                            "type": "number"
+                        },
+                        "skuSaleAmount": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_order_utilization_retail_v1{}.skuSaleAmount",
+                                "ref": [
+                                    "schema://5e45938a2a3f170000f6de9b",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "number",
+                            "title": "sku Sale Amount",
+                            "type": "number"
+                        },
+                        "skuUnits": {
+                            "description": "",
+                            "meta:ui": {
+                                "editable": true,
+                                "path": "{}._accenture_partner{}.ee_order_utilization_retail_v1{}.skuUnits",
+                                "ref": [
+                                    "schema://5e45938a2a3f170000f6de9b",
+                                    "#/definitions/customFields"
+                                ]
+                            },
+                            "meta:xdmType": "int",
+                            "title": "sku Units",
+                            "type": "integer",
+                            "minimum": -2147483648,
+                            "maximum": 2147483647
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "meta:xdmType": "object",
+                    "type": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769591018544,
+                "repo:lastModifiedDate": 1769591018544,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "c3229865c24cb44d4dff4a860eb652407bd82d8246a3739c2995e9e0d57f928d",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/79bb283c66ebefaca504e621627762c10ebe82da93196a5f",
+            "meta:altId": "_accenture_partner.datatypes.79bb283c66ebefaca504e621627762c10ebe82da93196a5f",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_store_return_utilization_retail_v1",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "returnAmount": {
+                            "title": "returnAmount",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.return{}.returnAmount",
+                                "editable": true,
+                                "generateDate": 1604743832506
+                            }
+                        },
+                        "returnId": {
+                            "title": "returnId",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.return{}.returnId",
+                                "editable": true,
+                                "generateDate": 1604743832506
+                            }
+                        },
+                        "returnOriginalOrderID": {
+                            "title": "returnOriginalOrderID",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.return{}.returnOriginalOrderID",
+                                "editable": true,
+                                "generateDate": 1604743832506
+                            }
+                        },
+                        "returnSku": {
+                            "title": "returnSku",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.return{}.returnSku",
+                                "editable": true,
+                                "generateDate": 1604743832506
+                            }
+                        },
+                        "returnType": {
+                            "title": "returnType",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.return{}.returnType",
+                                "editable": true,
+                                "generateDate": 1604743832506
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769591017643,
+                "repo:lastModifiedDate": 1769591017643,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "83ffc44dec7bf1b8291c8bcff9bb4b84a1ef287ba80d59540eec12593c0b40db",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/55d77e6a3831fbb5b4cbcc2fed12e784b012d3ee6190112a",
+            "meta:altId": "_accenture_partner.datatypes.55d77e6a3831fbb5b4cbcc2fed12e784b012d3ee6190112a",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "coupon",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "couponID": {
+                            "title": "couponID",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.promotion{}.coupon{}.couponID",
+                                "editable": true,
+                                "generateDate": 1604743579523
+                            }
+                        },
+                        "couponSavingsAmt": {
+                            "title": "couponSavingsAmt",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.promotion{}.coupon{}.couponSavingsAmt",
+                                "editable": true,
+                                "generateDate": 1604743579523
+                            }
+                        },
+                        "couponUseApplied": {
+                            "title": "couponUseApplied",
+                            "description": "",
+                            "type": "boolean",
+                            "meta:xdmType": "boolean",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.promotion{}.coupon{}.couponUseApplied",
+                                "editable": true,
+                                "generateDate": 1604743579523
+                            }
+                        },
+                        "couponUseAttempt": {
+                            "title": "couponUseAttempt",
+                            "description": "",
+                            "type": "boolean",
+                            "meta:xdmType": "boolean",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/e46e3fbaeaa2e805ab9186c0e4adbc36",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.retail{}.promotion{}.coupon{}.couponUseAttempt",
+                                "editable": true,
+                                "generateDate": 1604743579523
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769591016857,
+                "repo:lastModifiedDate": 1769591016857,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "bb4e41a3aad14c37ab34d82f6426a1a242ae0784c4f56c872aa3dfb656eda5a3",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/af627a1b5ee3c2949cfd7b30eda6549977f17a53c2d19927",
+            "meta:altId": "_accenture_partner.datatypes.af627a1b5ee3c2949cfd7b30eda6549977f17a53c2d19927",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "profile_scoring_product_core_v2",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "affinity": {
+                            "title": "affinity",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualScoring{}.product{}.affinity",
+                                "editable": true
+                            }
+                        },
+                        "recommendations": {
+                            "title": "recommendations",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualScoring{}.product{}.recommendations",
+                                "editable": true
+                            }
+                        },
+                        "usage": {
+                            "title": "usage",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualScoring{}.product{}.usage",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589920366,
+                "repo:lastModifiedDate": 1769589920366,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "3bda9db59ac1ed324cfa9783cf6a04b000efddf9cdd524081a2c3e694af95dcb",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/1681a2fe0141b791fc844ba2cbfcd540b6d18efe1b7ebd9a",
+            "meta:altId": "_accenture_partner.datatypes.1681a2fe0141b791fc844ba2cbfcd540b6d18efe1b7ebd9a",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "profile_characteristics_core_v2",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "age": {
+                            "title": "age",
+                            "description": "",
+                            "type": "integer",
+                            "meta:xdmType": "int",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.age",
+                                "editable": true
+                            },
+                            "minimum": -2147483648,
+                            "maximum": 2147483647
+                        },
+                        "childrenInHouseHold": {
+                            "title": "childrenInHouseHold",
+                            "description": "",
+                            "type": "boolean",
+                            "meta:xdmType": "boolean",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.childrenInHouseHold",
+                                "editable": true
+                            }
+                        },
+                        "creditScore": {
+                            "title": "creditScore",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.creditScore",
+                                "editable": true
+                            }
+                        },
+                        "numberChildreninHouseHold": {
+                            "title": "numberChildreninHouseHold",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.numberChildreninHouseHold",
+                                "editable": true
+                            }
+                        },
+                        "incomeClass": {
+                            "title": "incomeClass",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.incomeClass",
+                                "editable": true
+                            }
+                        },
+                        "employer": {
+                            "title": "employer",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.employer",
+                                "editable": true
+                            }
+                        },
+                        "occupation": {
+                            "title": "occupation",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.occupation",
+                                "editable": true
+                            }
+                        },
+                        "favouriteCategory": {
+                            "title": "favouriteCategory",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.favouriteCategory",
+                                "editable": true
+                            }
+                        },
+                        "favouriteSubCategory": {
+                            "title": "favouriteSubCategory",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.individualCharacteristics{}.core{}.favouriteSubCategory",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589919214,
+                "repo:lastModifiedDate": 1769589919214,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "0e6e4e50c6f845ea72d088450f59ec190ee8309e4781ba4ca25ceab38e8faf37",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/fe754e1ed896fa8da7d8553a87d19d75",
+            "meta:altId": "_accenture_partner.datatypes.fe754e1ed896fa8da7d8553a87d19d75",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "profile_order_core_v2",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "avgOrderSize": {
+                            "title": "avgOrderSize",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.avgOrderSize",
+                                "editable": true
+                            }
+                        },
+                        "lastOrderDate": {
+                            "title": "lastOrderDate",
+                            "description": "",
+                            "type": "string",
+                            "format": "date",
+                            "meta:xdmType": "date",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.lastOrderDate",
+                                "editable": true
+                            }
+                        },
+                        "lastOrderSize": {
+                            "title": "lastOrderSize",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.lastOrderSize",
+                                "editable": true
+                            }
+                        },
+                        "lastOrderSku": {
+                            "title": "lastOrderSku",
+                            "description": "",
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "meta:xdmType": "string"
+                            },
+                            "meta:xdmType": "array",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.lastOrderSku[]{}",
+                                "editable": true
+                            }
+                        },
+                        "lastOrderPaymentMethod": {
+                            "title": "lastOrderPaymentMethod",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.lastOrderPaymentMethod{}",
+                                "editable": true
+                            }
+                        },
+                        "lastOrderStore": {
+                            "title": "lastOrderStore",
+                            "description": "",
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "meta:xdmType": "string"
+                            },
+                            "meta:xdmType": "array",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.lastOrderStore[]{}",
+                                "editable": true
+                            }
+                        },
+                        "lastOrderType": {
+                            "title": "lastOrderType",
+                            "description": "",
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "meta:xdmType": "string"
+                            },
+                            "meta:xdmType": "array",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.lastOrderType[]{}",
+                                "editable": true
+                            }
+                        },
+                        "lastOrderValue": {
+                            "title": "lastOrderValue",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.lastOrderValue",
+                                "editable": true
+                            }
+                        },
+                        "ordersYTD": {
+                            "title": "ordersYTD",
+                            "description": "",
+                            "type": "integer",
+                            "meta:xdmType": "int",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.ordersYTD",
+                                "editable": true
+                            },
+                            "minimum": -2147483648,
+                            "maximum": 2147483647
+                        },
+                        "lifetimeValue": {
+                            "title": "lifetimeValue",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.orderProfile{}.lifetimeValue",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589918507,
+                "repo:lastModifiedDate": 1769589918507,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "369f08ceb524f916eeb75593e78db03fd88a5bbde85abc2c6f4b6e7dcac952b0",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/fe47b37664c4716fa68f439fc9b6ea85b485ce2231534bcc",
+            "meta:altId": "_accenture_partner.datatypes.fe47b37664c4716fa68f439fc9b6ea85b485ce2231534bcc",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "profile_loyalty_core_v2",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "level": {
+                            "title": "level",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.loyaltyDetails{}.level",
+                                "editable": true
+                            }
+                        },
+                        "points": {
+                            "title": "points",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.loyaltyDetails{}.points",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589917822,
+                "repo:lastModifiedDate": 1769589917822,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "3eff2e03164fdc569a50ad2c7c8cfbc8319cee032a19fab2f799d6c2348002e7",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/d402cbe5b484f7c0154f049c806b7b37715f8e1d8db2b29b",
+            "meta:altId": "_accenture_partner.datatypes.d402cbe5b484f7c0154f049c806b7b37715f8e1d8db2b29b",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_form_core_v2",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "category": {
+                            "title": "Category",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.form{}.category",
+                                "editable": true
+                            }
+                        },
+                        "name": {
+                            "title": "Name",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.form{}.name",
+                                "editable": true
+                            }
+                        },
+                        "action": {
+                            "title": "Action",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.form{}.action",
+                                "editable": true
+                            }
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589917141,
+                "repo:lastModifiedDate": 1769589917141,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "dbcf19b25ded7c32da5efb1b328621fa606855f3dd097c1a6dbb23a5cc631c89",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/c13b3f72ef7265867115526d85fa7d40ed531ac8673e7251",
+            "meta:altId": "_accenture_partner.datatypes.c13b3f72ef7265867115526d85fa7d40ed531ac8673e7251",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_bot_core_v2",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "botTopic": {
+                            "title": "botTopic",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.bot{}.botTopic",
+                                "editable": true
+                            }
+                        },
+                        "botSatisfaction": {
+                            "title": "botSatisfaction",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.bot{}.botSatisfaction",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589916481,
+                "repo:lastModifiedDate": 1769589916481,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "bf9a4c06fb8c30addd6f7e9c48a09bcd79e89f6c13f7614630eded71ea598376",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/c13b3f72ef7265867115526d85fa7d40ed531ac8673e7252",
+            "meta:altId": "_accenture_partner.datatypes.c13b3f72ef7265867115526d85fa7d40ed531ac8673e7252",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_video_core_v2",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "videoTitle": {
+                            "title": "videoTitle",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.video{}.videoTitle",
+                                "editable": true
+                            }
+                        },
+                        "videoSource": {
+                            "title": "videoSource",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.video{}.videoSource",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589915772,
+                "repo:lastModifiedDate": 1769589915772,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "6d33b13f95b577ba6a393512d73b97acf3ee8e49d944cc670bdde15c59a4628c",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/62d76a6fa0ae9572e27b46f87442a63c",
+            "meta:altId": "_accenture_partner.datatypes.62d76a6fa0ae9572e27b46f87442a63c",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_call_center_core_v1",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "callReason": {
+                            "title": "Call Reason",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callReason",
+                                "editable": true
+                            }
+                        },
+                        "callResolutionFlag": {
+                            "title": "Call Resolution Flag",
+                            "description": "",
+                            "type": "boolean",
+                            "meta:xdmType": "boolean",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callResolutionFlag",
+                                "editable": true
+                            }
+                        },
+                        "callSatisfaction": {
+                            "title": "Call Satisfaction",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callSatisfaction",
+                                "editable": true
+                            }
+                        },
+                        "callStartTime": {
+                            "title": "Call Start Time",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "meta:xdmType": "date-time",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callStartTime",
+                                "editable": true
+                            }
+                        },
+                        "callTicketID": {
+                            "title": "Call Ticket ID",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callTicketID",
+                                "editable": true
+                            }
+                        },
+                        "callTimeElapsed": {
+                            "title": "Call Time Elapsed",
+                            "description": "",
+                            "type": "number",
+                            "meta:xdmType": "number",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callTimeElapsed",
+                                "editable": true
+                            }
+                        },
+                        "callTopic": {
+                            "title": "Call Topic",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callTopic",
+                                "editable": true
+                            }
+                        },
+                        "callTransferID": {
+                            "title": "Call Transfer ID",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callTransferID",
+                                "editable": true
+                            }
+                        },
+                        "callEndTime": {
+                            "title": "Call End TIme",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "meta:xdmType": "date-time",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callEndTime",
+                                "editable": true
+                            }
+                        },
+                        "callCenterID": {
+                            "title": "Call Center ID",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callCenterID",
+                                "editable": true
+                            }
+                        },
+                        "callAgentID": {
+                            "title": "Call Agent ID",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callAgentID",
+                                "editable": true
+                            }
+                        },
+                        "callAgentComments": {
+                            "title": "Call Agent Comments",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callAgentComments",
+                                "editable": true
+                            }
+                        },
+                        "callANI": {
+                            "title": "Call ANI",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callANI",
+                                "editable": true
+                            }
+                        },
+                        "callID": {
+                            "title": "Call ID",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callID",
+                                "editable": true
+                            }
+                        },
+                        "callChannel": {
+                            "title": "callChannel",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callChannel",
+                                "editable": true
+                            }
+                        },
+                        "callPriority": {
+                            "title": "callPriority",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callPriority",
+                                "editable": true
+                            }
+                        },
+                        "callFeeling": {
+                            "title": "callFeeling",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.interactionDetails{}.core{}.callCenterAgent{}.callFeeling",
+                                "editable": true
+                            }
+                        },
+                        "callContractCancelled": {
+                            "title": "callContractCancelled",
+                            "description": "",
+                            "type": "boolean",
+                            "meta:xdmType": "boolean"
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589914886,
+                "repo:lastModifiedDate": 1769589914886,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "04f806df99c429eef81f1e2dbc83994affa637569ab1790127c3e9dc88eb8845",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/000d4c195f109aee69c3bc483869e908",
+            "meta:altId": "_accenture_partner.datatypes.000d4c195f109aee69c3bc483869e908",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "ee_product_details_core_v1",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "description": {
+                            "title": "description",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}.productListItems[]{}._accenture_partner{}.core{}.description",
+                                "editable": true
+                            }
+                        },
+                        "imageURL": {
+                            "title": "imageURL",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}.productListItems[]{}._accenture_partner{}.core{}.imageURL",
+                                "editable": true
+                            }
+                        },
+                        "mainCategory": {
+                            "title": "mainCategory",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}.productListItems[]{}._accenture_partner{}.core{}.mainCategory",
+                                "editable": true
+                            }
+                        },
+                        "productURL": {
+                            "title": "productURL",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}.productListItems[]{}._accenture_partner{}.core{}.productURL",
+                                "editable": true
+                            }
+                        },
+                        "subCategory": {
+                            "title": "subCategory",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}.productListItems[]{}._accenture_partner{}.core{}.subCategory",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589914113,
+                "repo:lastModifiedDate": 1769589914113,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "14e2f4de3dc61de7b2fb57de7b8dc5e813e732dcff2d39dacdd5558570b3ab62",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/f73d4083368035765071e5df86bfb92a994818ed564d6ad6",
+            "meta:altId": "_accenture_partner.datatypes.f73d4083368035765071e5df86bfb92a994818ed564d6ad6",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "core",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "biometricId": {
+                            "title": "biometricId",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.biometricId",
+                                "editable": true
+                            }
+                        },
+                        "crmId": {
+                            "title": "crmId",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.crmId",
+                                "editable": true
+                            }
+                        },
+                        "d365": {
+                            "title": "d365",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.d365",
+                                "editable": true
+                            }
+                        },
+                        "ecid": {
+                            "title": "ecid",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.ecid",
+                                "editable": true
+                            }
+                        },
+                        "email": {
+                            "title": "email",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.email",
+                                "editable": true
+                            }
+                        },
+                        "emailIdSha256": {
+                            "title": "emailIdSha256",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.emailIdSha256",
+                                "editable": true
+                            }
+                        },
+                        "loyaltyId": {
+                            "title": "loyaltyId",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.loyaltyId",
+                                "editable": true
+                            }
+                        },
+                        "passportId": {
+                            "title": "passportId",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.passportId",
+                                "editable": true
+                            }
+                        },
+                        "phoneNumber": {
+                            "title": "phoneNumber",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.phoneNumber",
+                                "editable": true
+                            }
+                        },
+                        "pushTokens": {
+                            "title": "pushTokens",
+                            "description": "",
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "meta:xdmType": "string"
+                            },
+                            "meta:xdmType": "array",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.pushTokens[]{}",
+                                "editable": true
+                            }
+                        },
+                        "stackchatId": {
+                            "title": "stackchatId",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.stackchatId",
+                                "editable": true
+                            }
+                        },
+                        "gaid": {
+                            "title": "gaid",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.identification{}.core{}.gaid",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589913278,
+                "repo:lastModifiedDate": 1769589913278,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "e38964251f237ba092d9f3c1c80a7b851b75b09d909249f0d9474da9b613d0a7",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/34932a5288f47f3e4092bf3a7255ad4dfd6cd75753325268",
+            "meta:altId": "_accenture_partner.datatypes.34932a5288f47f3e4092bf3a7255ad4dfd6cd75753325268",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "demoEnvironment",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "brandIndustry": {
+                            "title": "brandIndustry",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.demoEnvironment{}.brandIndustry",
+                                "editable": true
+                            }
+                        },
+                        "brandLogo": {
+                            "title": "brandLogo",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.demoEnvironment{}.brandLogo",
+                                "editable": true
+                            }
+                        },
+                        "brandName": {
+                            "title": "brandName",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.demoEnvironment{}.brandName",
+                                "editable": true
+                            }
+                        },
+                        "ldap": {
+                            "title": "ldap",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.demoEnvironment{}.ldap",
+                                "editable": true
+                            }
+                        },
+                        "tms": {
+                            "title": "tms",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string",
+                            "meta:ui": {
+                                "ref": [
+                                    "https://ns.adobe.com/accenture_partner/mixins/f7fc5d501b121ab095f81e00bec15e1b55a4c3a0ae084f04",
+                                    "#/definitions/customFields"
+                                ],
+                                "path": "{}._accenture_partner{}.demoEnvironment{}.tms",
+                                "editable": true
+                            }
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1769589912508,
+                "repo:lastModifiedDate": 1769589912508,
+                "xdm:createdClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:lastModifiedClientId": "7bd6973a86bf417dad4c9635aee85783",
+                "xdm:createdUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "xdm:lastModifiedUserId": "A6C975145E83039D0A495E70@techacct.adobe.com",
+                "eTag": "26bee993d7bb599e356341b25869cb9b2ef7deb6c1490124a6821d25c9445b67",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/6b298acf39b136e16d36537c54801e9b8605eda4f23df2c0",
+            "meta:altId": "_accenture_partner.datatypes.6b298acf39b136e16d36537c54801e9b8605eda4f23df2c0",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "DataType_for_Enrichment_1762122501199",
+            "type": "object",
+            "description": "DataType for Enrichment attributes",
+            "properties": {
+                "accenture_partner__TrainingAccountDetails__OfferEligible": {
+                    "type": "boolean",
+                    "title": "OfferEligible",
+                    "description": "",
+                    "meta:xdmType": "boolean"
+                },
+                "accenture_partner__TrainingAccountDetails__RewardEligible": {
+                    "type": "boolean",
+                    "title": "RewardEligible",
+                    "description": "",
+                    "meta:xdmType": "boolean"
+                },
+                "accenture_partner__TrainingAccountDetails__MonthlyFee": {
+                    "type": "integer",
+                    "title": "MonthlyFee",
+                    "description": "",
+                    "meta:xdmType": "int",
+                    "minimum": -2147483648,
+                    "maximum": 2147483647
+                },
+                "accenture_partner__TrainingAccountDetails__InterestRate": {
+                    "type": "integer",
+                    "title": "InterestRate",
+                    "description": "",
+                    "meta:xdmType": "int",
+                    "minimum": -2147483648,
+                    "maximum": 2147483647
+                }
+            },
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1762122501611,
+                "repo:lastModifiedDate": 1762122501611,
+                "xdm:createdClientId": "cjm_ao_backend_service",
+                "xdm:lastModifiedClientId": "cjm_ao_backend_service",
+                "xdm:createdUserId": "D7BC1F2266E9F0700A495CAB@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "D7BC1F2266E9F0700A495CAB@a1c41e9a64965ffd495c6c.e",
+                "eTag": "2aa2317a0f0c7fba95d4eb465eda2ffd103e578b72142e7492ae482f5ac12a6f",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/222021aeb9ecf027a3e88437d7d23a49453f63eef4e43edc",
+            "meta:altId": "_accenture_partner.datatypes.222021aeb9ecf027a3e88437d7d23a49453f63eef4e43edc",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "DataType_for_Enrichment_1762122445871",
+            "type": "object",
+            "description": "DataType for Enrichment attributes",
+            "properties": {
+                "accenture_partner__TrainingAccountDetails__OfferEligible": {
+                    "type": "boolean",
+                    "title": "OfferEligible",
+                    "description": "",
+                    "meta:xdmType": "boolean"
+                },
+                "accenture_partner__TrainingAccountDetails__RewardEligible": {
+                    "type": "boolean",
+                    "title": "RewardEligible",
+                    "description": "",
+                    "meta:xdmType": "boolean"
+                },
+                "accenture_partner__TrainingAccountDetails__MonthlyFee": {
+                    "type": "integer",
+                    "title": "MonthlyFee",
+                    "description": "",
+                    "meta:xdmType": "int",
+                    "minimum": -2147483648,
+                    "maximum": 2147483647
+                },
+                "accenture_partner__TrainingAccountDetails__InterestRate": {
+                    "type": "integer",
+                    "title": "InterestRate",
+                    "description": "",
+                    "meta:xdmType": "int",
+                    "minimum": -2147483648,
+                    "maximum": 2147483647
+                }
+            },
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1762122446353,
+                "repo:lastModifiedDate": 1762122446353,
+                "xdm:createdClientId": "cjm_ao_backend_service",
+                "xdm:lastModifiedClientId": "cjm_ao_backend_service",
+                "xdm:createdUserId": "D7BC1F2266E9F0700A495CAB@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "D7BC1F2266E9F0700A495CAB@a1c41e9a64965ffd495c6c.e",
+                "eTag": "0cad4e236ed5fbc24b92da8c54d22e92e884ac3e10b9de201139c9e233a3e049",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/c8170c7939f55e5fae8fa94371e494628b40206ae1c4570f",
+            "meta:altId": "_accenture_partner.datatypes.c8170c7939f55e5fae8fa94371e494628b40206ae1c4570f",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "_audienceEnrichmentDataType",
+            "type": "object",
+            "description": "DataType for Enrichment attributes",
+            "properties": {
+                "accenture_partner__TrainingAccountDetails__OfferEligible": {
+                    "type": "boolean",
+                    "title": "OfferEligible",
+                    "description": "",
+                    "meta:xdmType": "boolean"
+                },
+                "accenture_partner__TrainingAccountDetails__RewardEligible": {
+                    "type": "boolean",
+                    "title": "RewardEligible",
+                    "description": "",
+                    "meta:xdmType": "boolean"
+                },
+                "accenture_partner__TrainingAccountDetails__MonthlyFee": {
+                    "type": "integer",
+                    "title": "MonthlyFee",
+                    "description": "",
+                    "meta:xdmType": "int",
+                    "minimum": -2147483648,
+                    "maximum": 2147483647
+                },
+                "accenture_partner__TrainingAccountDetails__InterestRate": {
+                    "type": "integer",
+                    "title": "InterestRate",
+                    "description": "",
+                    "meta:xdmType": "int",
+                    "minimum": -2147483648,
+                    "maximum": 2147483647
+                }
+            },
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1762122442012,
+                "repo:lastModifiedDate": 1762122442012,
+                "xdm:createdClientId": "cjm_ao_backend_service",
+                "xdm:lastModifiedClientId": "cjm_ao_backend_service",
+                "xdm:createdUserId": "D7BC1F2266E9F0700A495CAB@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "D7BC1F2266E9F0700A495CAB@a1c41e9a64965ffd495c6c.e",
+                "eTag": "25c3cc873b3f27a80f0ffc6c4103ea54b5bca1e19ac3efce90acf4a38771ef82",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/58e2f8be6e3eee3a790110dbe3c08850f53c7faf730e8cb5",
+            "meta:altId": "_accenture_partner.datatypes.58e2f8be6e3eee3a790110dbe3c08850f53c7faf730e8cb5",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "Buyer Behavior",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "purchaseFrequency": {
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/b678d34cd2f2b60142c4c3d7a133c9b4cfd8e92a33c25a07"
+                            ],
+                            "meta:xdmType": "number",
+                            "title": "Purchase Frequency",
+                            "description": "Avg no of orders per quarter",
+                            "type": "number",
+                            "required": [],
+                            "minimum": 0
+                        },
+                        "lastPurchaseDate": {
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/b678d34cd2f2b60142c4c3d7a133c9b4cfd8e92a33c25a07"
+                            ],
+                            "meta:xdmType": "date-time",
+                            "title": "Last Purchase Date ",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "required": []
+                        },
+                        "categoryAffinity": {
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/b678d34cd2f2b60142c4c3d7a133c9b4cfd8e92a33c25a07"
+                            ],
+                            "meta:xdmType": "string",
+                            "title": "Category Affinity",
+                            "description": "What category does the user generally buy from",
+                            "type": "string",
+                            "required": [],
+                            "minLength": 1,
+                            "maxLength": 25
+                        },
+                        "avgOrderValue": {
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/b678d34cd2f2b60142c4c3d7a133c9b4cfd8e92a33c25a07"
+                            ],
+                            "meta:xdmType": "number",
+                            "title": "Avg Order Value",
+                            "description": "Total Order Value divided by no of Orders",
+                            "type": "number",
+                            "required": [],
+                            "minimum": 0
+                        },
+                        "totalValue": {
+                            "meta:sourceSchema": [
+                                "https://ns.adobe.com/accenture_partner/mixins/b678d34cd2f2b60142c4c3d7a133c9b4cfd8e92a33c25a07"
+                            ],
+                            "meta:xdmType": "number",
+                            "title": "Total Value (To Date)",
+                            "description": "Revenue - CAC for each user ",
+                            "type": "number",
+                            "required": []
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1761733882781,
+                "repo:lastModifiedDate": 1761733882781,
+                "xdm:createdClientId": "platform_exim",
+                "xdm:lastModifiedClientId": "platform_exim",
+                "xdm:createdUserId": "98FF1DC9649660270A495FD4@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "98FF1DC9649660270A495FD4@a1c41e9a64965ffd495c6c.e",
+                "eTag": "40a71fe606ca5a04fbe7395cf8b7cc2218b28a289800dd571a9a47e8fd070da2",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/be3107784c6cffeeff09476def5f3ae23c098ec2a217d479",
+            "meta:altId": "_accenture_partner.datatypes.be3107784c6cffeeff09476def5f3ae23c098ec2a217d479",
+            "meta:resourceType": "datatypes",
+            "version": "1.0",
+            "title": "TrainingDetailsEvents",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "FirstTransactionDate": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/TrainingDetailsEvents/FirstTransactionDate",
+                                "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.FirstTransactionDate"
+                            },
+                            "meta:xdmType": "date",
+                            "meta:sourceSchema": [
+                                "schema://690153967a899f00005c40ae",
+                                "schema://690153967a899f00005c40ae"
+                            ],
+                            "required": [],
+                            "format": "date",
+                            "type": "string",
+                            "description": "",
+                            "title": "FirstTransactionDate"
+                        },
+                        "TransactionAmount": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/TrainingDetailsEvents/TransactionAmount",
+                                "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.TransactionAmount"
+                            },
+                            "meta:xdmType": "int",
+                            "meta:sourceSchema": [
+                                "schema://690153967a899f00005c40ae",
+                                "schema://690153967a899f00005c40ae"
+                            ],
+                            "required": [],
+                            "type": "integer",
+                            "description": "",
+                            "title": "TransactionAmount",
+                            "minimum": -2147483648,
+                            "maximum": 2147483647
+                        },
+                        "TransactionType": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/TrainingDetailsEvents/TransactionType",
+                                "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.TransactionType"
+                            },
+                            "meta:xdmType": "string",
+                            "meta:sourceSchema": [
+                                "schema://690153967a899f00005c40ae",
+                                "schema://690153967a899f00005c40ae"
+                            ],
+                            "meta:enum": {
+                                "Payment": "Payment",
+                                "Transfer": "Transfer",
+                                "Withdrawal": "Withdrawal",
+                                "Deposit": "Deposit"
+                            },
+                            "enum": [
+                                "Deposit",
+                                "Withdrawal",
+                                "Transfer",
+                                "Payment"
+                            ],
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "TransactionType"
+                        },
+                        "LastLoginDate": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/TrainingDetailsEvents/LastLoginDate",
+                                "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.LastLoginDate"
+                            },
+                            "meta:xdmType": "date",
+                            "meta:sourceSchema": [
+                                "schema://690153967a899f00005c40ae",
+                                "schema://690153967a899f00005c40ae"
+                            ],
+                            "required": [],
+                            "format": "date",
+                            "type": "string",
+                            "description": "",
+                            "title": "LastLoginDate"
+                        },
+                        "PointsEarned": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/TrainingDetailsEvents/PointsEarned",
+                                "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.PointsEarned"
+                            },
+                            "meta:xdmType": "int",
+                            "meta:sourceSchema": [
+                                "schema://690153967a899f00005c40ae",
+                                "schema://690153967a899f00005c40ae"
+                            ],
+                            "required": [],
+                            "type": "integer",
+                            "description": "",
+                            "title": "PointsEarned",
+                            "minimum": -2147483648,
+                            "maximum": 2147483647
+                        },
+                        "AccountInfo": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/TrainingDetailsEvents/AccountInfo",
+                                "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.AccountInfo{}"
+                            },
+                            "properties": {
+                                "AccountBalanceAmount": {
+                                    "meta:ui": {
+                                        "editable": true,
+                                        "isGlobalField": false,
+                                        "propertyPath": "_accenture_partner/TrainingDetailsEvents/AccountInfo/AccountBalanceAmount",
+                                        "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.AccountInfo{}.AccountBalanceAmount"
+                                    },
+                                    "meta:xdmType": "int",
+                                    "meta:sourceSchema": [
+                                        "schema://690153967a899f00005c40ae",
+                                        "schema://690153967a899f00005c40ae",
+                                        "schema://690153967a899f00005c40ae"
+                                    ],
+                                    "required": [],
+                                    "type": "integer",
+                                    "description": "",
+                                    "title": "AccountBalanceAmount",
+                                    "minimum": -2147483648,
+                                    "maximum": 2147483647
+                                },
+                                "AccountCreationDate": {
+                                    "meta:ui": {
+                                        "editable": true,
+                                        "isGlobalField": false,
+                                        "propertyPath": "_accenture_partner/TrainingDetailsEvents/AccountInfo/AccountCreationDate",
+                                        "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.AccountInfo{}.AccountCreationDate"
+                                    },
+                                    "meta:xdmType": "date",
+                                    "meta:sourceSchema": [
+                                        "schema://690153967a899f00005c40ae",
+                                        "schema://690153967a899f00005c40ae",
+                                        "schema://690153967a899f00005c40ae"
+                                    ],
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "AccountCreationDate"
+                                },
+                                "AccountType": {
+                                    "meta:ui": {
+                                        "editable": true,
+                                        "isGlobalField": false,
+                                        "propertyPath": "_accenture_partner/TrainingDetailsEvents/AccountInfo/AccountType",
+                                        "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.AccountInfo{}.AccountType"
+                                    },
+                                    "meta:xdmType": "string",
+                                    "meta:sourceSchema": [
+                                        "schema://690153967a899f00005c40ae",
+                                        "schema://690153967a899f00005c40ae",
+                                        "schema://690153967a899f00005c40ae"
+                                    ],
+                                    "meta:enum": {
+                                        "TFSA": "TFSA",
+                                        "Savings": "Savings",
+                                        "Chequing": "Chequing"
+                                    },
+                                    "enum": [
+                                        "Chequing",
+                                        "Savings",
+                                        "TFSA"
+                                    ],
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "AccountType"
+                                },
+                                "AccountID": {
+                                    "meta:ui": {
+                                        "editable": true,
+                                        "isGlobalField": false,
+                                        "propertyPath": "_accenture_partner/TrainingDetailsEvents/AccountInfo/AccountID",
+                                        "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.AccountInfo{}.AccountID"
+                                    },
+                                    "meta:xdmType": "string",
+                                    "meta:sourceSchema": [
+                                        "schema://690153967a899f00005c40ae",
+                                        "schema://690153967a899f00005c40ae",
+                                        "schema://690153967a899f00005c40ae"
+                                    ],
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "AccountID"
+                                }
+                            },
+                            "dotPath": "_accenture_partner.TrainingDetailsEvents.AccountInfo",
+                            "meta:xdmType": "object",
+                            "meta:sourceSchema": [
+                                "schema://690153967a899f00005c40ae",
+                                "schema://690153967a899f00005c40ae"
+                            ],
+                            "required": [],
+                            "note": "",
+                            "isFieldRequired": false,
+                            "type": "object",
+                            "description": "",
+                            "title": "AccountInfo"
+                        },
+                        "LogInMethod": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/TrainingDetailsEvents/LogInMethod",
+                                "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.LogInMethod"
+                            },
+                            "meta:xdmType": "string",
+                            "meta:sourceSchema": [
+                                "schema://690153967a899f00005c40ae",
+                                "schema://690153967a899f00005c40ae"
+                            ],
+                            "meta:enum": {
+                                "web": "Web",
+                                "app": "App"
+                            },
+                            "enum": [
+                                "app",
+                                "web"
+                            ],
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "LogInMethod"
+                        },
+                        "IsNewUser": {
+                            "meta:ui": {
+                                "editable": true,
+                                "isGlobalField": false,
+                                "propertyPath": "_accenture_partner/TrainingDetailsEvents/IsNewUser",
+                                "path": "{}._accenture_partner{}.TrainingDetailsEvents{}.IsNewUser"
+                            },
+                            "meta:xdmType": "boolean",
+                            "meta:sourceSchema": [
+                                "schema://690153967a899f00005c40ae",
+                                "schema://690153967a899f00005c40ae"
+                            ],
+                            "required": [],
+                            "type": "boolean",
+                            "description": "",
+                            "title": "IsNewUser"
+                        }
+                    }
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1761695470228,
+                "repo:lastModifiedDate": 1761695470228,
+                "xdm:createdClientId": "acp_xql_gateway",
+                "xdm:lastModifiedClientId": "acp_xql_gateway",
+                "xdm:createdUserId": "D7BC1F2266E9F0700A495CAB@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "D7BC1F2266E9F0700A495CAB@a1c41e9a64965ffd495c6c.e",
+                "eTag": "2b992f4add61c69305a542c989e636a40a0ecedd2f76836ca4dc8a20d26f5f32",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        },
+        {
+            "$id": "https://ns.adobe.com/accenture_partner/datatypes/f05f887ef416606a6cbf1d1ac7786ad506174df504a923ea",
+            "meta:altId": "_accenture_partner.datatypes.f05f887ef416606a6cbf1d1ac7786ad506174df504a923ea",
+            "meta:resourceType": "datatypes",
+            "version": "1.1",
+            "title": "apSystemIdentifiers",
+            "type": "object",
+            "description": "",
+            "definitions": {
+                "customFields": {
+                    "properties": {
+                        "apcrmId": {
+                            "title": "apcrmId",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "minLength": 1,
+                            "meta:xdmType": "string"
+                        },
+                        "aployaltyId": {
+                            "title": "aployaltyId",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            },
+            "allOf": [
+                {
+                    "$ref": "#/definitions/customFields",
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            ],
+            "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+            "meta:extensible": true,
+            "meta:abstract": true,
+            "meta:xdmType": "object",
+            "meta:registryMetadata": {
+                "repo:createdDate": 1758021941255,
+                "repo:lastModifiedDate": 1758023085142,
+                "xdm:createdClientId": "acp_xql_gateway",
+                "xdm:lastModifiedClientId": "acp_ui_platform",
+                "xdm:createdUserId": "9DF51DF2649660200A495C80@a1c41e9a64965ffd495c6c.e",
+                "xdm:lastModifiedUserId": "9DF51DF2649660200A495C80@a1c41e9a64965ffd495c6c.e",
+                "eTag": "4d1d5c03fa84915b77085d5bc87807350e5826dfe1ab7b24482c8f4f2c1de611",
+                "meta:globalLibVersion": "1.67.2"
+            },
+            "meta:containerId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+            "meta:sandboxType": "development",
+            "meta:tenantNamespace": "_accenture_partner",
+            "meta:allFieldAccess": true
+        }
+    ],
+    "_page": {
+        "orderby": "-updated,-created",
+        "next": null,
+        "count": 29
+    },
+    "_links": {
+        "next": null,
+        "global_schemas": {
+            "href": "https://platform.adobe.io/data/foundation/schemaregistry/global/datatypes"
+        }
+    }
+}

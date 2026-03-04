@@ -1,0 +1,26 @@
+{
+  "query": {
+    "input_id": "6143",
+    "resolved_id": "https://ns.adobe.com/accenture_partner/schemas/fc82efe33cbe36a896b749abf805386b130deb8064526143",
+    "node": {
+      "kind": "schema",
+      "title": "Cja_boya",
+      "$id": "https://ns.adobe.com/accenture_partner/schemas/fc82efe33cbe36a896b749abf805386b130deb8064526143",
+      "meta:altId": "_accenture_partner.schemas.fc82efe33cbe36a896b749abf805386b130deb8064526143"
+    }
+  },
+  "neighbors_1hop": [
+    {
+      "id": "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+      "node": {
+        "kind": "fieldgroup",
+        "title": "ExperienceEvent Core v2.1",
+        "$id": "https://ns.adobe.com/accenture_partner/mixins/98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612",
+        "meta:altId": "_accenture_partner.mixins.98d36bc5ec09e3d9e6ad4fb4ceed0227f4b6df35703e3612"
+      },
+      "reason": "schema_includes_fieldgroup",
+      "path": "$.allOf[3].$ref"
+    }
+  ],
+  "neighbor_count": 1
+}

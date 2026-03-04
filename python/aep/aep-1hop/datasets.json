@@ -1,0 +1,4206 @@
+{
+    "68965a965d2e642b92f1c6eb": {
+        "id": "68965a965d2e642b92f1c6eb",
+        "version": "1.0.144",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754684054946,
+        "updated": 1772059882979,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AJO Message Feedback Event Dataset",
+        "description": "Dataset for ingesting email and push application feedback events from AJO. Created through SDK.",
+        "tags": {
+            "eventType": [
+                "cjm.email.feedback",
+                "cjm.push.feedback"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "messageFeedbackEvent"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762802351272"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2025-08-08 20:14:20"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762802351356"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ajo_message_feedback_event_dataset"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/f0df7bf62507d87c8593398fa82a7e3e26c22f06329cc9e3",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": true,
+        "viewId": "68965a965d2e642b92f1c6ed",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "rowExpiration": {
+                    "ttlValue": "P30D",
+                    "nextScheduledDate": "2026-03-07",
+                    "lastCompleted": 1770315882351
+                },
+                "metrics": {
+                    "storageSize": 2262188,
+                    "rowCount": 171,
+                    "asOf": 1772059882694
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 109
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 20
+                        }
+                    ],
+                    "asOf": 1771685379717
+                }
+            },
+            "adobe_unifiedProfile": {
+                "rowExpiration": {
+                    "ttlValue": "P14D",
+                    "lastCompleted": 1754684060222
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=68965a965d2e642b92f1c6eb",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "cjm_provisioning_services"
+    },
+    "68c95139a4b223fc288b99a7": {
+        "id": "68c95139a4b223fc288b99a7",
+        "version": "2.0.18",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1758023993470,
+        "updated": 1772059823593,
+        "createdClient": "exc_app",
+        "createdUser": "9DF51DF2649660200A495C80@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AP Profile Dataset v1",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1758808957886"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2025-09-16 12:06:11"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1758808957938"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ap_profile_dataset_v1"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/6785b6b79bcec0fbee50511380b366d17f9ecd80dc291249",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "viewId": "68c95139a4b223fc288b99a7",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 174622,
+                    "rowCount": 57,
+                    "asOf": 1772059823424
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1764725447611
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=68c95139a4b223fc288b99a7",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "689659a9309ae52b930f9ef8": {
+        "id": "689659a9309ae52b930f9ef8",
+        "version": "1.0.208",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754683817204,
+        "updated": 1772052901106,
+        "createdClient": "bso_core_services",
+        "createdUser": "bso_core_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Journey Step Events",
+        "description": "Journey step event that is tied to a Journey Metadata.",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762931928986"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:false"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762931929051"
+            ],
+            "unifiedIdentity": [
+                "enabled:false"
+            ],
+            "adobe/pqs/table": [
+                "journey_step_events"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/8e5bd086f3c88122b505106168795b703b6fa158c1aad053",
+            "contentType": "application/vnd.adobe.xed-full-notext+json; version=1.0"
+        },
+        "viewId": "689659a9309ae52b930f9efa",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "rowExpiration": {
+                    "ttlValue": "P13M",
+                    "nextScheduledDate": "2026-03-07",
+                    "lastCompleted": 1770315874403
+                },
+                "metrics": {
+                    "storageSize": 12526361,
+                    "rowCount": 4313,
+                    "asOf": 1772052900955
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 1860
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 16
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 375
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 1216
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 778
+                        }
+                    ],
+                    "asOf": 1771958576474
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=689659a9309ae52b930f9ef8",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "bso_core_services"
+    },
+    "68965aa7a44b152b930e4cc4": {
+        "id": "68965aa7a44b152b930e4cc4",
+        "version": "1.0.136",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754684071572,
+        "updated": 1772052612476,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AJO Entity Dataset",
+        "description": "Dataset for ingesting AJO entities which are related to message sent to profile",
+        "tags": {
+            "eventType": [
+                "ajo.entities"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "ajoEntityRecord"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762931275758"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762931275822"
+            ],
+            "adobe/pqs/table": [
+                "ajo_entity_dataset"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/87e014799ae2e362ee4c85a7b8f5d18bef38a937f9901bdf",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": true,
+        "viewId": "68965aa7a44b152b930e4cc6",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 8314157,
+                    "rowCount": 2231,
+                    "asOf": 1772052612393
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772052612393
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=68965aa7a44b152b930e4cc4",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "cjm_provisioning_services"
+    },
+    "68965aa2cb42512b93035db9": {
+        "id": "68965aa2cb42512b93035db9",
+        "version": "1.0.125",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754684066451,
+        "updated": 1772052577423,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AJO Classification Dataset",
+        "description": "Dataset for ingesting email and push application feedback events from AJO. Created through SDK.",
+        "tags": {
+            "eventType": [
+                "cjm.profile.classification"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "ajoClassificationRecord"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762374615888"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762374615990"
+            ],
+            "adobe/pqs/table": [
+                "ajo_classification_dataset"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/c53afc1412af2fe530688ed3067891c3b159bd3095d0190b",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": true,
+        "viewId": "68965aa2cb42512b93035dbb",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 2475092,
+                    "rowCount": 369,
+                    "asOf": 1772052577316
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771989556391
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=68965aa2cb42512b93035db9",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "cjm_provisioning_services"
+    },
+    "689659a8a30f692b938bc335": {
+        "id": "689659a8a30f692b938bc335",
+        "version": "1.0.103",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754683816717,
+        "updated": 1772052534084,
+        "createdClient": "bso_core_services",
+        "createdUser": "bso_core_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Journeys",
+        "description": "Journey Metadata to describe Journeys.",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762931267575"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:false"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762931267652"
+            ],
+            "unifiedIdentity": [
+                "enabled:false"
+            ],
+            "adobe/pqs/table": [
+                "journeys"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/232985d756768488a97e6e654075204f80085d56bd9bf447",
+            "contentType": "application/vnd.adobe.xed-full-notext+json; version=1.0"
+        },
+        "viewId": "689659a8a30f692b938bc337",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 1425917,
+                    "rowCount": 184,
+                    "asOf": 1772052534022
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772052534022
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=689659a8a30f692b938bc335",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "bso_core_services"
+    },
+    "68965a9788ece52b9249ae9d": {
+        "id": "68965a9788ece52b9249ae9d",
+        "version": "1.0.17",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754684056039,
+        "updated": 1772051545981,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AJO Push Tracking Experience Event Dataset",
+        "description": "Dataset for ingesting push tracking experience events from AJO. Created through SDK.",
+        "tags": {
+            "eventType": [
+                "cjm.push.tracking"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "pushTrackingEvent"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2025-08-08 20:14:32"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ajo_push_tracking_experience_event_dataset"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/c864723b627595653bc3ba4304a011ae934082300f9b7dc0",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": true,
+        "viewId": "68965a9888ece52b9249ae9f",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "rowExpiration": {
+                    "ttlValue": "P30D",
+                    "nextScheduledDate": "2026-03-07",
+                    "lastCompleted": 1770315882844
+                },
+                "metrics": {
+                    "storageSize": 281274,
+                    "rowCount": 90,
+                    "asOf": 1772051545894
+                }
+            },
+            "adobe_unifiedProfile": {
+                "rowExpiration": {
+                    "ttlValue": "P14D",
+                    "lastCompleted": 1754684073041
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=68965a9788ece52b9249ae9d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "cjm_provisioning_services"
+    },
+    "699f4237e181f6546795f4eb": {
+        "id": "699f4237e181f6546795f4eb",
+        "version": "2.0.6",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772044855263,
+        "updated": 1772049781350,
+        "createdClient": "exc_app",
+        "createdUser": "8E263966652562C20A495E6C@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AA Member Demographics Variant2 Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-25 18:42:02"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "aa_member_demographics_variant2_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/3a6fa3db7796d92e845e114ea509c9017c21af04f7243272",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699f4237e181f6546795f4eb",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "files": "@/dataSetFiles?dataSetId=699f4237e181f6546795f4eb",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "697d0d0f6e033fbae4ecc312": {
+        "id": "697d0d0f6e033fbae4ecc312",
+        "version": "2.0.11",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1769803023733,
+        "updated": 1772049698660,
+        "createdClient": "exc_app",
+        "createdUser": "8E263966652562C20A495E6C@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AA Member Demographics Dataset",
+        "description": "AA Member Demographics Information Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-01-30 19:57:22"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "aa_member_demographics_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/3a6fa3db7796d92e845e114ea509c9017c21af04f7243272",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "697d0d0f6e033fbae4ecc312",
+        "unifiedTags": [
+            "8a8c2394-afb0-455f-99fd-1b14093279a7"
+        ],
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 44596,
+                    "rowCount": 12,
+                    "asOf": 1770317770795
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1769967426443
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=697d0d0f6e033fbae4ecc312",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "699ea0b0e9932c05f805a212": {
+        "id": "699ea0b0e9932c05f805a212",
+        "version": "2.0.7",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772003504980,
+        "updated": 1772048289001,
+        "createdClient": "exc_app",
+        "createdUser": "CD1F2279697304340A495CF5@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "PS_DoubleOptin_POC_Event_dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-25 07:43:56"
+            ],
+            "adobe/pqs/table": [
+                "ps_doubleoptin_poc_event_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/d3b61e5a099366151d7ba621977063c3954ee3693995cb6a",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699ea0b0e9932c05f805a212",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 139693,
+                    "rowCount": 12,
+                    "asOf": 1772048288910
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=699ea0b0e9932c05f805a212",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "0CEB60F754C7E06B0A4C98A2_1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e_ups_1754683822000_segment_definition_ingestion": {
+        "id": "0CEB60F754C7E06B0A4C98A2_1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e_ups_1754683822000_segment_definition_ingestion",
+        "version": "1.0.245",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754683825163,
+        "updated": 1772046812701,
+        "createdClient": "acp_core_ups_hades",
+        "createdUser": "acp_core_ups_hades@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Segment Ingestion Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762939383553"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "identityField:identityMap",
+                "profileInstanceId:ups",
+                "enabledAt:2025-08-08 20:10:29",
+                "upsSegmentDefIngestion:ups"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762939383644"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "segment_ingestion_dataset"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/38fe3d0e6974335cafccac5bf50134e6bd5d97dbdc2fd1f6",
+            "contentType": "application/vnd.adobe.xed-full-notext+json; version=1"
+        },
+        "viewId": "689659b1cbc5ea2b92cde7a3",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 3147166,
+                    "rowCount": 726,
+                    "asOf": 1772046812607
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772046812607
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=0CEB60F754C7E06B0A4C98A2_1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e_ups_1754683822000_segment_definition_ingestion",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "699daa63b8eb05f60442d0a3": {
+        "id": "699daa63b8eb05f60442d0a3",
+        "version": "2.0.8",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771940451489,
+        "updated": 1772046431714,
+        "createdClient": "exc_app",
+        "createdUser": "CD1F2279697304340A495CF5@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "PS_DoubleOptin_POC_Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-24 13:58:33"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ps_doubleoptin_poc_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/566d59951e2c9dcc4a0b889c0a944816016cf2eb52f500ba",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699daa63b8eb05f60442d0a3",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 42248,
+                    "rowCount": 5,
+                    "asOf": 1772046431150
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772046431150
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=699daa63b8eb05f60442d0a3",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "68f089eadc09d61e8e15566f": {
+        "id": "68f089eadc09d61e8e15566f",
+        "version": "2.0.56",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1760594410704,
+        "updated": 1772045975861,
+        "createdClient": "adc_flow_provider",
+        "createdUser": "A0221DE9649660120A495C8D@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Suchi - Web - Prod midValues",
+        "description": "Analytics Data Connector for report suite Suchi - Web - Prod",
+        "dataSourceId": 1233239,
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/features": [
+                "changeDataCapture:true"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/analytics/experience-event-variation": [
+                "m"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762776974692"
+            ],
+            "acp_versionDescriptor": [
+                "_experience.analytics.internal.recordVersion"
+            ],
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762776974808"
+            ],
+            "acp_primaryKeyDescriptor": [
+                "_id",
+                "timestamp"
+            ],
+            "adobe/pqs/table": [
+                "suchi_web_prod_midvalues"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/c642186110c91e18466cd4f04e4d0660e36801a97c1fbbd1",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "viewId": "68f089eadc09d61e8e15566f",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 665320,
+                    "rowCount": 145,
+                    "asOf": 1772045975743
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 24
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 97
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 18
+                        }
+                    ],
+                    "asOf": 1772045975743
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=68f089eadc09d61e8e15566f",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "adc_flow_provider"
+    },
+    "699f3422f0cfff1a418b88fc": {
+        "id": "699f3422f0cfff1a418b88fc",
+        "version": "2.0.2",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772041250763,
+        "updated": 1772041397509,
+        "createdClient": "exc_app",
+        "createdUser": "E70E271D699ED8AC0A495EC1@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_core_ups_ingest_controller@AdobeService",
+        "name": "test-UK-dataset upload",
+        "description": "test-UK-dataset upload",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-25 17:43:17"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "test_uk_dataset_upload"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/f6653b853d6ee7ac0ae81164b6759794a025deb1657b6ce2",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699f3422f0cfff1a418b88fc",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "files": "@/dataSetFiles?dataSetId=699f3422f0cfff1a418b88fc",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": false
+    },
+    "699f2e52f0cfff1a418b88f0": {
+        "id": "699f2e52f0cfff1a418b88f0",
+        "version": "2.0.2",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772039762430,
+        "updated": 1772039804981,
+        "createdClient": "exc_app",
+        "createdUser": "B68323C4686D3FA70A495FD0@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_core_ups_ingest_controller@AdobeService",
+        "name": "UK_Cust_data_PK",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-25 17:16:44"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "uk_cust_data_pk"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/f6653b853d6ee7ac0ae81164b6759794a025deb1657b6ce2",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699f2e52f0cfff1a418b88f0",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "files": "@/dataSetFiles?dataSetId=699f2e52f0cfff1a418b88f0",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": false
+    },
+    "691e658de3bb413ba046ea5b": {
+        "id": "691e658de3bb413ba046ea5b",
+        "version": "2.0.118",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1763599757565,
+        "updated": 1772039487180,
+        "createdClient": "adc_flow_provider",
+        "createdUser": "16421E54661922D00A495E29@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Dave's Test Report Suite midValues",
+        "description": "Analytics Data Connector for report suite Dave's Test Report Suite",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/features": [
+                "changeDataCapture:true"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/analytics/experience-event-variation": [
+                "m"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_versionDescriptor": [
+                "_experience.analytics.internal.recordVersion"
+            ],
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "acp_primaryKeyDescriptor": [
+                "_id",
+                "timestamp"
+            ],
+            "adobe/pqs/table": [
+                "dave_s_test_report_suite_midvalues"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/87c20b814df3e69a8a02683ee15e1a6af24c9afe6ba14233",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "viewId": "691e658de3bb413ba046ea5b",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 14018331,
+                    "rowCount": 19689,
+                    "asOf": 1772039487053
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 1480
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 8187
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 8967
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 1053
+                        }
+                    ],
+                    "asOf": 1771674959381
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=691e658de3bb413ba046ea5b",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "adc_flow_provider"
+    },
+    "699f241903fd89574199bd27": {
+        "id": "699f241903fd89574199bd27",
+        "version": "2.0.6",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772037145961,
+        "updated": 1772037504895,
+        "createdClient": "exc_app",
+        "createdUser": "B68323C4686D3FA70A495FD0@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Ay_Customer_Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-25 16:35:09"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ay_customer_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/e58c1130b412291e879e59246c9a01f7752a99eda1a5d9b9",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699f241903fd89574199bd27",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "files": "@/dataSetFiles?dataSetId=699f241903fd89574199bd27",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "699f150e22ba6b87c41b0b79": {
+        "id": "699f150e22ba6b87c41b0b79",
+        "version": "2.0.6",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772033294842,
+        "updated": 1772035470942,
+        "createdClient": "exc_app",
+        "createdUser": "9DF51DF2649660200A495C80@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AP Subscription Event DS",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-25 15:28:25"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ap_subscription_event_ds"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/527f28426d3201b9e7d244f6729c542d0bf6c760fcc0238c",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "viewId": "699f150e22ba6b87c41b0b79",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "files": "@/dataSetFiles?dataSetId=699f150e22ba6b87c41b0b79",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "699ee960b8eb05f60442d451": {
+        "id": "699ee960b8eb05f60442d451",
+        "version": "2.0.4",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772022112118,
+        "updated": 1772032719333,
+        "createdClient": "exc_app",
+        "createdUser": "06EC2371682E24640A495C61@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "LR DEMO WEB DUKE",
+        "description": "LR DEMO WEB DUKE",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "adobe/pqs/table": [
+                "lr_demo_web_duke"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/49d9c9ce916d245c42ce7b941750e811cfc02d9b944d3f89",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "viewId": "699ee960b8eb05f60442d451",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "files": "@/dataSetFiles?dataSetId=699ee960b8eb05f60442d451",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "699830f2fcb46cbc9de508dd": {
+        "id": "699830f2fcb46cbc9de508dd",
+        "version": "2.0.11",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771581682918,
+        "updated": 1772030665448,
+        "createdClient": "exc_app",
+        "createdUser": "4F521E6766308D5C0A495CB4@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "mig_poc_sampleSchema",
+        "description": "mig_poc_sampleSchema",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-20 10:01:47"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "mig_poc_sampleschema"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/568052d5bfd5a10012a14d5483f81cf38a6b68e8a211c985",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699830f2fcb46cbc9de508dd",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 128093,
+                    "rowCount": 7,
+                    "asOf": 1772030665356
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772030665356
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=699830f2fcb46cbc9de508dd",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "698375b2f6dd7073836c84c2": {
+        "id": "698375b2f6dd7073836c84c2",
+        "version": "2.0.24",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1770223026074,
+        "updated": 1772027269208,
+        "createdClient": "exc_app",
+        "createdUser": "8E263966652562C20A495E6C@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AA Customer Events Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-04 16:37:18"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "aa_customer_events_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/ef9e7d7189beebee4862133f6150022fd5e9860d5736866f",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "698375b2f6dd7073836c84c2",
+        "unifiedTags": [
+            "8a8c2394-afb0-455f-99fd-1b14093279a7"
+        ],
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 3135993,
+                    "rowCount": 491,
+                    "asOf": 1772027269090
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 491
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772027269090
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=698375b2f6dd7073836c84c2",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "68a9136a2366ca2b92d1c142": {
+        "id": "68a9136a2366ca2b92d1c142",
+        "version": "1.0.268",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1755911018273,
+        "updated": 1772026501858,
+        "createdClient": "aep_reporting_destinations",
+        "createdUser": "aep_reporting_destinations@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "DIM_Destination",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762911963199"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762911963361"
+            ],
+            "adobe/pqs/table": [
+                "dim_destination"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/xdm/context/destination",
+            "contentType": "application/vnd.adobe.xed+json; version=1.33.4"
+        },
+        "viewId": "68a9136a2366ca2b92d1c144",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 1537420,
+                    "rowCount": 17,
+                    "asOf": 1772026501744
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772026501744
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=68a9136a2366ca2b92d1c142",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "68a91437d041972b966363ed": {
+        "id": "68a91437d041972b966363ed",
+        "version": "1.0.272",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1755911223751,
+        "updated": 1772026260144,
+        "createdClient": "aep_reporting_destinations",
+        "createdUser": "aep_reporting_destinations@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "BR_Segment_Destination",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762912004998"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762912005053"
+            ],
+            "adobe/pqs/table": [
+                "br_segment_destination"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/xdm/context/destination-segment",
+            "contentType": "application/vnd.adobe.xed+json; version=1.33.4"
+        },
+        "viewId": "68a91437d041972b966363ef",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 1213330,
+                    "rowCount": 10,
+                    "asOf": 1772026260012
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771763812666
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=68a91437d041972b966363ed",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "68a91449f665b72b922ae70f": {
+        "id": "68a91449f665b72b922ae70f",
+        "version": "1.0.272",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1755911241315,
+        "updated": 1772026245059,
+        "createdClient": "aep_reporting_destinations",
+        "createdUser": "aep_reporting_destinations@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "BR_Namespace_Destination",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762912032919"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762912033004"
+            ],
+            "adobe/pqs/table": [
+                "br_namespace_destination"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/xdm/context/destination-namespace",
+            "contentType": "application/vnd.adobe.xed+json; version=1.33.4"
+        },
+        "viewId": "68a91449f665b72b922ae711",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 54931,
+                    "rowCount": 0,
+                    "asOf": 1772026244867
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772026244867
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=68a91449f665b72b922ae70f",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "697ffaa06b08703cb46caa29": {
+        "id": "697ffaa06b08703cb46caa29",
+        "version": "2.0.33",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1769994912297,
+        "updated": 1772024904527,
+        "createdClient": "adc_flow_provider",
+        "createdUser": "AB351E45668451910A495C4B@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Remarketable-Dinika-AA midValues",
+        "description": "Analytics Data Connector for report suite Remarketable-Dinika-AA",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/features": [
+                "changeDataCapture:true"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/analytics/experience-event-variation": [
+                "m"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_versionDescriptor": [
+                "_experience.analytics.internal.recordVersion"
+            ],
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "acp_primaryKeyDescriptor": [
+                "_id",
+                "timestamp"
+            ],
+            "adobe/pqs/table": [
+                "remarketable_dinika_aa_midvalues"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/210a13b4a4da09ec0abe92382709f8b7e76c231525637f5",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "viewId": "697ffaa06b08703cb46caa29",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 1057303,
+                    "rowCount": 620,
+                    "asOf": 1772024904450
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 249
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 366
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 79
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 1
+                        }
+                    ],
+                    "asOf": 1770260101832
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=697ffaa06b08703cb46caa29",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "adc_flow_provider"
+    },
+    "6995acc2a203294780eaa2a1": {
+        "id": "6995acc2a203294780eaa2a1",
+        "version": "2.0.8",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771416770529,
+        "updated": 1772024146790,
+        "createdClient": "exc_app",
+        "createdUser": "CD1F2279697304340A495CF5@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "PS Dataset Sub List POC",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-18 12:13:03"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ps_dataset_sub_list_poc"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/10bd4f0c9dec0c7be9a347c277dc6608db5d3c547f760d4d",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "6995acc2a203294780eaa2a1",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 34390,
+                    "rowCount": 2,
+                    "asOf": 1772024146691
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1772024146691
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=6995acc2a203294780eaa2a1",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "6995569063c7ed0cc0806691": {
+        "id": "6995569063c7ed0cc0806691",
+        "version": "2.0.8",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771394704850,
+        "updated": 1772016822299,
+        "createdClient": "exc_app",
+        "createdUser": "A0591DD5649660200A495E71@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Akan_PoC_Customer_DataSet",
+        "description": "Akan_PoC_Customer_DataSet",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-18 06:05:45"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "akan_poc_customer_dataset_20260218_060504_852"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/8c8a99149696ba6ed3292ae0db8c507bb8615e4d1724ee58",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "6995569063c7ed0cc0806691",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 18909,
+                    "rowCount": 1,
+                    "asOf": 1772016822193
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=6995569063c7ed0cc0806691",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "68965aa04520462b9340b7e8": {
+        "id": "68965aa04520462b9340b7e8",
+        "version": "1.0.90",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754684064960,
+        "updated": 1772009761655,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AJO Email Tracking Experience Event Dataset",
+        "description": "Dataset for ingesting email tracking experience events from AJO. Created through SDK.",
+        "tags": {
+            "eventType": [
+                "cjm.email.tracking"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "emailTrackingEvent"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762814231022"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2025-08-08 20:14:49"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762814231114"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ajo_email_tracking_experience_event_dataset"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/eeec24a7d9f4a335cde8ade59a1310a4e9edb0532225ddc8",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": true,
+        "viewId": "68965aa04520462b9340b7ea",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "rowExpiration": {
+                    "ttlValue": "P30D",
+                    "nextScheduledDate": "2026-03-07",
+                    "lastCompleted": 1770315895354
+                },
+                "metrics": {
+                    "storageSize": 2051197,
+                    "rowCount": 251,
+                    "asOf": 1772009761544
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 224
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 17
+                        }
+                    ],
+                    "asOf": 1771359728921
+                }
+            },
+            "adobe_unifiedProfile": {
+                "rowExpiration": {
+                    "ttlValue": "P14D",
+                    "lastCompleted": 1754684089319
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=68965aa04520462b9340b7e8",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "cjm_provisioning_services"
+    },
+    "699eb3beff3c5d81ca372675": {
+        "id": "699eb3beff3c5d81ca372675",
+        "version": "2.0.2",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772008382168,
+        "updated": 1772008403870,
+        "createdClient": "exc_app",
+        "createdUser": "C13322FC68E744430A495C25@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_core_ups_ingest_controller@AdobeService",
+        "name": "Customer_UK_dataset",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-25 08:33:23"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "customer_uk_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/f6653b853d6ee7ac0ae81164b6759794a025deb1657b6ce2",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699eb3beff3c5d81ca372675",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "files": "@/dataSetFiles?dataSetId=699eb3beff3c5d81ca372675",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": false
+    },
+    "699eacaab8632d42b0d77161": {
+        "id": "699eacaab8632d42b0d77161",
+        "version": "2.0.2",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1772006570476,
+        "updated": 1772006725968,
+        "createdClient": "exc_app",
+        "createdUser": "C13322FC68E744430A495C25@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_core_ups_ingest_controller@AdobeService",
+        "name": "Customer_US_dataset",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-25 08:05:25"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "customer_us_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/f6653b853d6ee7ac0ae81164b6759794a025deb1657b6ce2",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699eacaab8632d42b0d77161",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "files": "@/dataSetFiles?dataSetId=699eacaab8632d42b0d77161",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": false
+    },
+    "699e45ee3f8628445df5fc60": {
+        "id": "699e45ee3f8628445df5fc60",
+        "version": "2.0.0",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771980270097,
+        "updated": 1771980270097,
+        "createdClient": "5efbff2d9d304c7baf331e19e60cf5ce",
+        "createdUser": "CD621D496669F5070A495F8A@techacct.adobe.com",
+        "updatedUser": "CD621D496669F5070A495F8A@techacct.adobe.com",
+        "name": "tangerine Dataset",
+        "description": "Dataset for CJA migration 545a56f2-f39d-41f3-b157-0b26734ce14f",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "adobe/pqs/table": [
+                "tangerine_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/48bdebb62a4bb0614ec8714ce2e63f85837ed6fc1fb20c24",
+            "contentType": "application/vnd.adobe.xed+json;version=1"
+        },
+        "viewId": "699e45ee3f8628445df5fc60",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "files": "@/dataSetFiles?dataSetId=699e45ee3f8628445df5fc60",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": false
+    },
+    "6995746e72ee6f52e16edc1d": {
+        "id": "6995746e72ee6f52e16edc1d",
+        "version": "2.0.10",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771402350866,
+        "updated": 1771980003458,
+        "createdClient": "exc_app",
+        "createdUser": "0C10228768913BDF0A495C5D@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "SL_event_dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-18 08:12:58"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "sl_event_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/9c22241df1a922bec29bea0cd12d9660b5116a4397eed51b",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "6995746e72ee6f52e16edc1d",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 158172,
+                    "rowCount": 95,
+                    "asOf": 1771980003306
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 95
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771980003306
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=6995746e72ee6f52e16edc1d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "6979b357cb12c9df7073968d": {
+        "id": "6979b357cb12c9df7073968d",
+        "version": "2.0.16",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1769583447412,
+        "updated": 1771975002494,
+        "createdClient": "exc_app",
+        "createdUser": "B1B123C0686D3FA70A495FE6@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "channel identity level optout dataset jana",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-01-28 07:23:17"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "channel_identity_level_optout_dataset_jana"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/584db704a02f7b2e29d37d3ab5f3b39e29e7ef7a32075dbf",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "6979b357cb12c9df7073968d",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 286380,
+                    "rowCount": 28,
+                    "asOf": 1771975002368
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1770672653637
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=6979b357cb12c9df7073968d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "693042b5c148bbeb2dde5f94": {
+        "id": "693042b5c148bbeb2dde5f94",
+        "version": "2.0.55",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1764770485679,
+        "updated": 1771971964978,
+        "createdClient": "acp_analytics_stitching",
+        "createdUser": "acp_analytics_stitching@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Stitched - NG Web SDK (CaliRunLab) - gbs - STITCH_ALL - CRLID",
+        "description": "Stitched dataset of events dataset NG Web SDK (CaliRunLab) (68dfc04a51025da2d846354e)",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/gdprbroker/skip-dataset": [
+                "true"
+            ],
+            "adobe/siphon/table/dependsOn": [
+                "68dfc04a51025da2d846354e"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe/siphon/table/changeFeedEnabled": [
+                "true"
+            ],
+            "adobe/hygiene/skip-dataset": [
+                "true"
+            ],
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "adobe/cja-stitching": [
+                "stitchingType:GBS",
+                "stitchingDataset:true"
+            ],
+            "adobe/pqs/table": [
+                "stitched_ng_web_sdk_calirunlab_gbs_stitch_all_crlid"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/49659e8b5b53bed3018bfe9e6cee558db0928609954592b3",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "viewId": "693042b5c148bbeb2dde5f94",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 5083866,
+                    "rowCount": 1014,
+                    "asOf": 1771971964792
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 94
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 186
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 245
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 489
+                        }
+                    ],
+                    "asOf": 1771971964792
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=693042b5c148bbeb2dde5f94",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "69942998ba78850831f1e576": {
+        "id": "69942998ba78850831f1e576",
+        "version": "2.0.12",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771317656792,
+        "updated": 1771971300307,
+        "createdClient": "exc_app",
+        "createdUser": "A0591DD5649660200A495E71@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Akan_PoC_Customer_DataSet_old",
+        "description": "Akan_PoC_Customer_DataSet1",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-17 08:43:50"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "akan_poc_customer_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/8c8a99149696ba6ed3292ae0db8c507bb8615e4d1724ee58",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": true,
+        "viewId": "69942998ba78850831f1e576",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 18218,
+                    "rowCount": 1,
+                    "asOf": 1771971300170
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771361686740
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=69942998ba78850831f1e576",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "68965aa5f6a3be2b930c38ed": {
+        "id": "68965aa5f6a3be2b930c38ed",
+        "version": "1.0.32",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1754684069769,
+        "updated": 1771967301560,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "AJO BCC Feedback Event Dataset",
+        "description": "Dataset for ingesting email bcc feedback events.",
+        "tags": {
+            "eventType": [
+                "ajo.bcc.feedback"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "messageBCCFeedbackEvent"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1758720472938"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1758720473000"
+            ],
+            "adobe/pqs/table": [
+                "ajo_bcc_feedback_event_dataset"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/5ec1b1bb5d89409a8ee28892335659edd2937f1e65ccad64",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": true,
+        "viewId": "68965aa5f6a3be2b930c38ef",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "rowExpiration": {
+                    "ttlValue": "P30D",
+                    "nextScheduledDate": "2026-03-07",
+                    "lastCompleted": 1770315889114
+                },
+                "metrics": {
+                    "storageSize": 268621,
+                    "rowCount": 16,
+                    "asOf": 1771967301365
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1770064284638
+                }
+            },
+            "adobe_unifiedProfile": {}
+        },
+        "files": "@/dataSetFiles?dataSetId=68965aa5f6a3be2b930c38ed",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "cjm_provisioning_services"
+    },
+    "699d5adf12c49bd83ece4a1d": {
+        "id": "699d5adf12c49bd83ece4a1d",
+        "version": "2.0.7",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771920095247,
+        "updated": 1771964694030,
+        "createdClient": "exc_app",
+        "createdUser": "4F521E6766308D5C0A495CB4@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "mig_poc_testSchema1",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-24 08:01:52"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "mig_poc_testschema1"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/c3949f8be257c34ebe4aea063e4b4d5bf8a759b87c61a9e7",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699d5adf12c49bd83ece4a1d",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 17397,
+                    "rowCount": 1,
+                    "asOf": 1771964693862
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=699d5adf12c49bd83ece4a1d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "699db00822ba6b87c41b07c1": {
+        "id": "699db00822ba6b87c41b07c1",
+        "version": "2.0.2",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771941896688,
+        "updated": 1771942388358,
+        "createdClient": "exc_app",
+        "createdUser": "67EB21C9695BFD980A495C3C@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_core_ups_ingest_controller@AdobeService",
+        "name": "UK CUST Dataset",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-24 14:13:08"
+            ],
+            "adobe/pqs/table": [
+                "uk_cust_dataset_20260224_140456_691"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/18f72bdd082cb57ec57f7a00ad81008621b4f0c7c2214938",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699db00822ba6b87c41b07c1",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "files": "@/dataSetFiles?dataSetId=699db00822ba6b87c41b07c1",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": false
+    },
+    "699db0318b6499c3f0f11a61": {
+        "id": "699db0318b6499c3f0f11a61",
+        "version": "2.0.2",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771941937993,
+        "updated": 1771942374412,
+        "createdClient": "exc_app",
+        "createdUser": "67EB21C9695BFD980A495C3C@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_core_ups_ingest_controller@AdobeService",
+        "name": "US CUST Dataset",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-24 14:12:54"
+            ],
+            "adobe/pqs/table": [
+                "us_cust_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/18f72bdd082cb57ec57f7a00ad81008621b4f0c7c2214938",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699db0318b6499c3f0f11a61",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "files": "@/dataSetFiles?dataSetId=699db0318b6499c3f0f11a61",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": false
+    },
+    "6968507e02ee17e3e970a5c0": {
+        "id": "6968507e02ee17e3e970a5c0",
+        "version": "2.0.57",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1768444030643,
+        "updated": 1771927847906,
+        "createdClient": "exc_app",
+        "createdUser": "17DE21DA6939D2CF0A495FD7@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "ArchanaTest - dataset",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-01-15 19:49:12"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "adobe/pqs/table": [
+                "archanatest_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/64880b461323b4fd4c49c2a62d58474ba9034dc0bcf9d3f1",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "6968507e02ee17e3e970a5c0",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 7912152,
+                    "rowCount": 2398,
+                    "asOf": 1771927847554
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 2374
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 24
+                        }
+                    ],
+                    "asOf": 1771927847554
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=6968507e02ee17e3e970a5c0",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "698bac252b45a1d7fc533a4f": {
+        "id": "698bac252b45a1d7fc533a4f",
+        "version": "2.0.13",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1770761253919,
+        "updated": 1771910762072,
+        "createdClient": "exc_app",
+        "createdUser": "A02F1DEC649660370A495FED@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "KAN Custom Offer Event",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-10 22:15:10"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "kan_custom_offer_event"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/9085fc93375b1f26e4bcdb8649508f9ffbc8a32471258422",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "viewId": "698bac252b45a1d7fc533a4f",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 473300,
+                    "rowCount": 56,
+                    "asOf": 1771910761961
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 16
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771343936049
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=698bac252b45a1d7fc533a4f",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "69528b369b37f7f4a5dddde1": {
+        "id": "69528b369b37f7f4a5dddde1",
+        "version": "2.0.24",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1767017270488,
+        "updated": 1771909988195,
+        "createdClient": "exc_app",
+        "createdUser": "A4BA1DF16496601B0A495FC8@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Loyalty Membership",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/features": [
+                "changeDataCapture:true"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_versionDescriptor": [
+                "last_modified"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "acp_primaryKeyDescriptor": [
+                "customer"
+            ],
+            "adobe/pqs/table": [
+                "loyalty_membership"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/8d0639ff7c3e3960e783c2e4f2afd986f9d0de163f9f5ce8",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1",
+            "schemaType": "adhoc-v2"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "69528b369b37f7f4a5dddde1",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_journeyOptimizer": {
+                "enabled": true,
+                "status": "COMPLETED",
+                "internalState": {
+                    "jobId": "d6aae21e-024d-40ab-a681-427c65ed8d19",
+                    "startTime": "2025-12-29T14:08:26Z",
+                    "endTime": "2025-12-29T14:08:49Z",
+                    "jobState": "DDL_APPLIED"
+                }
+            },
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 43037,
+                    "rowCount": 1,
+                    "asOf": 1771909988047
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771909988047
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=69528b369b37f7f4a5dddde1",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "cdc",
+        "dataIngested": true
+    },
+    "6994764fbdad499c367eb04a": {
+        "id": "6994764fbdad499c367eb04a",
+        "version": "2.0.12",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771337295177,
+        "updated": 1771888054770,
+        "createdClient": "exc_app",
+        "createdUser": "CD1F2279697304340A495CF5@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "PS POC Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-18 06:26:31"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ps_poc_dataset"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/10bd4f0c9dec0c7be9a347c277dc6608db5d3c547f760d4d",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "6994764fbdad499c367eb04a",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 618106,
+                    "rowCount": 41,
+                    "asOf": 1771888054646
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771401041484
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=6994764fbdad499c367eb04a",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "690e4b4ea00de089e6f9be8b": {
+        "id": "690e4b4ea00de089e6f9be8b",
+        "version": "2.0.14",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1762544462117,
+        "updated": 1771886987422,
+        "createdClient": "exc_app",
+        "createdUser": "A9701E28649660270A495FC6@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "ACL EN Purchase",
+        "description": "ACL EN Purchase Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762544911981"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2025-11-07 19:41:15"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762544912039"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "acl_en_purchase"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/661952e898d89f742af9f2a1d54baf75a9a112c80d3a1d38",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "690e4b4ea00de089e6f9be8b",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 286761,
+                    "rowCount": 1003,
+                    "asOf": 1771886987299
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771886987299
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=690e4b4ea00de089e6f9be8b",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "699c12d923235bf6731777dd": {
+        "id": "699c12d923235bf6731777dd",
+        "version": "2.0.8",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771836121781,
+        "updated": 1771882633688,
+        "createdClient": "exc_app",
+        "createdUser": "67EB21C9695BFD980A495C3C@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "UK Customer dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-23 09:00:10"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "uk_customer_data_set"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/f6653b853d6ee7ac0ae81164b6759794a025deb1657b6ce2",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699c12d923235bf6731777dd",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 26272,
+                    "rowCount": 18,
+                    "asOf": 1771882633449
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771882633449
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=699c12d923235bf6731777dd",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "699c1310f0cfff1a418b409d": {
+        "id": "699c1310f0cfff1a418b409d",
+        "version": "2.0.7",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771836176089,
+        "updated": 1771882267851,
+        "createdClient": "exc_app",
+        "createdUser": "67EB21C9695BFD980A495C3C@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "Us customer dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2026-02-23 08:59:39"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "us_customer_dataset_20260223_084256_091"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/f6653b853d6ee7ac0ae81164b6759794a025deb1657b6ce2",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699c1310f0cfff1a418b409d",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 15306,
+                    "rowCount": 9,
+                    "asOf": 1771882267639
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=699c1310f0cfff1a418b409d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "68d1237c71216da6f49aa742": {
+        "id": "68d1237c71216da6f49aa742",
+        "version": "2.0.106",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1758536572466,
+        "updated": 1771880871969,
+        "createdClient": "acp_core_ups_hades",
+        "createdUser": "acp_core_ups_hades@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "flexible-audience",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "adobe/gdprbroker/skip-dataset": [
+                "true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762797121880"
+            ],
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:false",
+                "ups_snapshot_type:falcon"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762797121983"
+            ],
+            "adobe/pqs/table": [
+                "flexible_audience"
+            ]
+        },
+        "systemLabels": [
+            "user_no_write"
+        ],
+        "schemaRef": {
+            "id": "https://ns.adobe.com/xdm/context/profile__union",
+            "contentType": "application/vnd.adobe.xed-full-notext+json; version=1"
+        },
+        "viewId": "68d1237c71216da6f49aa742",
+        "classification": {
+            "managedBy": "SYSTEM",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 23195422,
+                    "rowCount": 597,
+                    "asOf": 1771880871657
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "NO_DATE_PARTITION_FOUND",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771880871657
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=68d1237c71216da6f49aa742",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true,
+        "serviceOwner": "acp_core_ups_hades"
+    },
+    "699bcf5b22ba6b87c41ac38c": {
+        "id": "699bcf5b22ba6b87c41ac38c",
+        "version": "2.0.6",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771818843854,
+        "updated": 1771862523083,
+        "createdClient": "exc_app",
+        "createdUser": "9C131DCC649660090A495ED5@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "CK Content Matrix Dataset v2",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "aep/lookup/ingestion": [
+                "enabled:true",
+                "edgeReplication",
+                "type:record"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "adobe/pqs/table": [
+                "ck_content_matrix_dataset_v2"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/4f2f2c6384790221cb0cf06070f87ed92e16e91323b53780",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "699bcf5b22ba6b87c41ac38c",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "record"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 17833,
+                    "rowCount": 23,
+                    "asOf": 1771862522994
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=699bcf5b22ba6b87c41ac38c",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "68dfc04a51025da2d846354e": {
+        "id": "68dfc04a51025da2d846354e",
+        "version": "2.0.90",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1759494218567,
+        "updated": 1771850206583,
+        "createdClient": "exc_app",
+        "createdUser": "07B41E10653059500A495C7D@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "NG Web SDK (CaliRunLab)",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1762564496491"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2025-10-03 15:19:26"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1762564496578"
+            ],
+            "adobe/cja-stitching": [
+                "sourceDataset:true"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "ng_web_sdk_calirunlab"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/1f69bb0e5b0475bf7f5410821594a2f25725857a269cb4b8",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "68dfc04a51025da2d846354e",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 4032968,
+                    "rowCount": 1014,
+                    "asOf": 1771850206255
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 95
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 217
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 214
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 480
+                        }
+                    ],
+                    "asOf": 1771751214350
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=68dfc04a51025da2d846354e",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    },
+    "6995954aaff631980c26c2b9": {
+        "id": "6995954aaff631980c26c2b9",
+        "version": "2.0.12",
+        "imsOrg": "0CEB60F754C7E06B0A4C98A2@AdobeOrg",
+        "sandboxId": "1e4c6fcf-b97b-4dec-8c6f-cfb97b6dec6e",
+        "created": 1771410762129,
+        "updated": 1771803840597,
+        "createdClient": "exc_app",
+        "createdUser": "CC0F22486851A7C30A495FDC@a1c41e9a64965ffd495c6c.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "name": "websdk_Poc",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::false"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "delta"
+            ],
+            "unifiedProfile": [
+                "errors:UPDAEM-089028-500: Exception in PES Call. Failed to add dataset as a parent of agg node",
+                "enabled:false"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "websdk_poc"
+            ]
+        },
+        "schemaRef": {
+            "id": "https://ns.adobe.com/accenture_partner/schemas/440fd06d2b4058eade87349351872014fc030051659a1298",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "enableErrorDiagnostics": false,
+        "viewId": "6995954aaff631980c26c2b9",
+        "classification": {
+            "managedBy": "CUSTOMER",
+            "dataBehavior": "time-series"
+        },
+        "extensions": {
+            "adobe_lakeHouse": {
+                "metrics": {
+                    "storageSize": 75168,
+                    "rowCount": 22,
+                    "asOf": 1771803840356
+                },
+                "eventDistributionMetrics": {
+                    "distributions": [
+                        {
+                            "timeWindow": "0D-30D",
+                            "count": 22
+                        },
+                        {
+                            "timeWindow": "180D-365D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "60D-90D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "365D-730D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "90D-180D",
+                            "count": 0
+                        },
+                        {
+                            "timeWindow": "30D-60D",
+                            "count": 0
+                        }
+                    ],
+                    "asOf": 1771803840356
+                }
+            }
+        },
+        "files": "@/dataSetFiles?dataSetId=6995954aaff631980c26c2b9",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "ingestionType": "append",
+        "dataIngested": true
+    }
+}
